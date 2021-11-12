@@ -1,0 +1,60 @@
+$pc: 900px; // PC
+$sp: 899px; // スマホ
+
+@mixin pc {
+  @media (min-width: ($pc)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
+@mixin mq($breakpoint: md, $range: max) {
+  @media (#{$range}-width:#{map-get($breakpoints,$breakpoint)}) {
+    @content;
+  }
+}
+
+// @include is-max()
+@mixin is-max($is-max) {
+  @media only screen and (max-width: $is-max) {
+      @content;
+  }
+}
+
+//@include mq(){}
+//で使えます。空の場合はmdで判断。
+//ブレイクポイントは必要な分だけ使ってください。1か所の場合はmdだけ残して数値を変えてください。
+$breakpoints: (
+  xs: 320px,
+  sm: 375px,
+  md: 800px,
+  lg: 1200px,
+  xl: 1500px,
+);
+
+// color: $font-color;
+$font-color: #33251f;
+
+// light  @include Shippori_Mincho_B1(300);
+// medium @include Shippori_Mincho_B1(500);
+@mixin Shippori_Mincho_B1($weight: 500) { 
+  font-family: YakuHanMP, 'Shippori Mincho B1', serif;
+  font-weight: $weight;
+}
+
+@mixin Kinuta_Mincho($weight: 700) { 
+  font-family: kinuta-mincho-stdn, sans-serif;
+  font-weight: $weight;
+  font-style: normal;
+}
+
+// sassで「@include arrow(#fff)」など。カラーコードは変更可能。
+@mixin arrow($color: #000) {
+  border-top: 1px solid $color;
+  border-right: 1px solid $color;
+  transform: rotate(45deg);
+}
