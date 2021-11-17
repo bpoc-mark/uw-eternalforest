@@ -361,17 +361,25 @@ img {
       }
       &.active{
         &::after{
-          transform: scaleY(1);
+          transform: scaleY(-1);
+          top: 1.6em;
+
+          @include sp{
+            top: .8em;
+          }
         }
       }
       &::after{
-        content: "\2BC5";
+        content: "";
+        border-top: 9px solid #82b023;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 9px solid transparent;
         position: absolute;
-        top: 1.8rem;
+        top: 2.2rem;
         right: 0;
-        color: #82b023;
         font-size: 16px;
-        transform: scaleY(-1);
+        transform: scaleY(1);
         @include sp{
           top: 1.4rem;
         }

@@ -403,7 +403,7 @@ footer .footer_inner .copy small {
 #pageTop {
   opacity: 0;
   position: absolute;
-  right: 0;
+  right: 20px;
   top: 30px;
   z-index: 888;
   transition: 0.3s;
@@ -903,17 +903,27 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 .accordion .accordion_item_q.active::after {
-  transform: scaleY(1);
+  transform: scaleY(-1);
+  top: 1.6em;
+}
+
+@media (max-width: 899px) {
+  .accordion .accordion_item_q.active::after {
+    top: .8em;
+  }
 }
 
 .accordion .accordion_item_q::after {
-  content: "\2BC5";
+  content: "";
+  border-top: 9px solid #82b023;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 9px solid transparent;
   position: absolute;
-  top: 1.8rem;
+  top: 2.2rem;
   right: 0;
-  color: #82b023;
   font-size: 16px;
-  transform: scaleY(-1);
+  transform: scaleY(1);
 }
 
 @media (max-width: 899px) {
@@ -1385,12 +1395,12 @@ img[src$=".png"], img[src$=".jpg"] {
   margin-top: 45px;
 }
 
-#Top main .sect_3 .wrapper .container h5 {
+#Top main .sect_3 .wrapper .container h6 {
   padding-top: 26px;
   text-align: center;
 }
 
-#Top main .sect_3 .wrapper .container h5 span {
+#Top main .sect_3 .wrapper .container h6 span {
   background-color: #fff;
   border-radius: 5px;
   display: inline-block;

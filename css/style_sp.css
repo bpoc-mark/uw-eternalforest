@@ -184,7 +184,7 @@ header .header_inner .h_right nav ul li:nth-child(6) .tel_wrap a {
 }
 
 header .header_inner .h_right nav ul li:nth-child(6) .tel_wrap a img {
-  width: 22.5px;
+  width: 21px;
   margin-right: 9px;
   position: relative;
   top: -3px;
@@ -259,7 +259,7 @@ header .header_inner .nav_sp ul li:nth-child(3) .menu {
 
 header .header_inner .nav_sp ul li:nth-child(3) .menu span {
   position: absolute;
-  top: 25px;
+  top: 22px;
   left: 0;
   right: 0;
   display: inline-block;
@@ -272,31 +272,34 @@ header .header_inner .nav_sp ul li:nth-child(3) .menu span {
 }
 
 header .header_inner .nav_sp ul li:nth-child(3) .menu span.line-t.show {
-  top: 25px;
+  top: 22px;
 }
 
 header .header_inner .nav_sp ul li:nth-child(3) .menu span.line-t.show.show {
   opacity: 0;
+  top: 25px;
 }
 
 header .header_inner .nav_sp ul li:nth-child(3) .menu span.line-m {
-  top: 25px;
+  top: 22px;
   left: -23px;
 }
 
 header .header_inner .nav_sp ul li:nth-child(3) .menu span.line-m.show {
   transform: rotate(-45deg);
+  top: 25px;
   left: 0;
   width: 30px;
   height: 4px;
 }
 
 header .header_inner .nav_sp ul li:nth-child(3) .menu span.line-b {
-  top: 25px;
+  top: 22px;
   right: -23px;
 }
 
 header .header_inner .nav_sp ul li:nth-child(3) .menu span.line-b.show {
+  top: 25px;
   right: 0;
   width: 30px;
   height: 4px;
@@ -305,7 +308,7 @@ header .header_inner .nav_sp ul li:nth-child(3) .menu span.line-b.show {
 
 header .header_inner .nav_sp ul li:nth-child(3) .menu p {
   color: #fff;
-  padding: 55px 0 0;
+  padding: 50px 0 0;
   font-size: 10px;
   text-align: center;
 }
@@ -386,8 +389,10 @@ footer .footer_inner .cta_wrap ul li .tel_wrap a {
 }
 
 footer .footer_inner .cta_wrap ul li .tel_wrap a img {
-  width: 22.5px;
+  width: 21px;
   margin-right: 9px;
+  position: relative;
+  top: -4px;
 }
 
 footer .footer_inner .cta_wrap ul li .tel_wrap p {
@@ -406,7 +411,7 @@ footer .footer_inner .cta_wrap ul li .inquiry_form {
 }
 
 footer .footer_inner .cta_wrap ul li .inquiry_form img {
-  width: 22.5px;
+  width: 23px;
   position: relative;
   top: -3px;
   margin-right: 4px;
@@ -948,17 +953,27 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 .accordion .accordion_item_q.active::after {
-  transform: scaleY(1);
+  transform: scaleY(-1);
+  top: 1.6em;
+}
+
+@media (max-width: 899px) {
+  .accordion .accordion_item_q.active::after {
+    top: .8em;
+  }
 }
 
 .accordion .accordion_item_q::after {
-  content: "\2BC5";
+  content: "";
+  border-top: 9px solid #82b023;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 9px solid transparent;
   position: absolute;
-  top: 1.8rem;
+  top: 2.2rem;
   right: 0;
-  color: #82b023;
   font-size: 16px;
-  transform: scaleY(-1);
+  transform: scaleY(1);
 }
 
 @media (max-width: 899px) {
@@ -1418,7 +1433,7 @@ img[src$=".png"], img[src$=".jpg"] {
   padding-right: 20px;
 }
 
-#Top main .sect_3 .wrapper .container h5 {
+#Top main .sect_3 .wrapper .container h6 {
   text-align: center;
   background-color: #fff;
   border-radius: 5px;
@@ -1426,7 +1441,7 @@ img[src$=".png"], img[src$=".jpg"] {
   margin: 16px 20px 0;
 }
 
-#Top main .sect_3 .wrapper .container h5 span {
+#Top main .sect_3 .wrapper .container h6 span {
   line-height: 20.5px;
 }
 
@@ -1730,7 +1745,7 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_4 .wrapper .container .site_wrap .row .col:last-child ul li .tel_wrap a img {
-  width: 22.5px;
+  width: 21px;
   margin-right: 9px;
 }
 

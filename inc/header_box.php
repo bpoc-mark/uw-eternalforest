@@ -38,7 +38,7 @@ $str = explode('/', $url); ?>
 				} ?>>
 					<div class="tel_wrap">
 						<span>ヨイハナ</span>
-						<a href="tel:0120-4187-07"><img src="/images/common/tel_icon.png" alt="">0120-4187-07</a>
+						<a href="tel:0120-4187-07"><img src="/images/common/sp/tel_icon.png" alt="">0120-4187-07</a>
 						<p>(9:00～17:00 / 年末年始休み)</p>
 					</div>
 				</li>
@@ -55,7 +55,7 @@ $str = explode('/', $url); ?>
 	<div class="nav_sp sp">
 		<ul>
 			<li>
-				<a href="tel:tel:0120-4187-07"><img src="/images/common/tel_icon.png" alt=""></a>
+				<a href="tel:tel:0120-4187-07"><img src="/images/common/sp/tel_icon.png" alt=""></a>
 			</li>
 			<li>
 				<a href="/contact/"><img src="/images/common/mail_icon.png" alt=""></a>

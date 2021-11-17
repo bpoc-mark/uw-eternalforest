@@ -66,7 +66,7 @@
 							<p>園内見学は2022年3月以降に<br class="sp">予定しております。<br><span>工事中につき現地への立入りはご遠慮ください。</span></p>
 						</div>
 						<div class="sns c-anim-up">
-							<p>公式SNSページスタート <a href=""><img src="/images/top/sect_2/fb_icon.png" alt=""></a><a href=""><img src="/images/top/sect_2/ig_icon.png" alt=""></a></p>
+							<p>公式SNSページスタート <a href=""><img src="/images/top/sect_2/fb_icon.png" class="pc" alt=""><img src="/images/top/sect_2/sp/fb_icon.png" class="sp" alt=""></a><a href=""><img src="/images/top/sect_2/ig_icon.png" class="pc" alt=""><img src="/images/top/sect_2/sp/ig_icon.png" class="sp" alt=""></a></p>
 						</div>
 						<h3 class="c-heading-01 c-anim-up">開園に向けての私たちの思い</h3>
 						<div class="desc c-anim-up">
@@ -178,7 +178,7 @@
 							<br>
 							まずご見学いただき、お墓の種類をお選びください。
 						</p>
-						<h5 class="c-anim-up"><span class="sp">※</span><span>下記料金には墓石設置料は<br class="sp">含まれておりません</span></h5>
+						<h6 class="c-anim-up"><span class="sp">※</span><span>下記料金には墓石設置料は<br class="sp">含まれておりません</span></h6>
 						<div class="map c-anim-up">
 							<img src="/images/top/sect_3/map.svg" class="img_map" alt="">
 							<img src="/images/top/sect_3/cloud_img.png" class="cloud_img" alt="">
@@ -279,7 +279,7 @@
 										<li>
 											<div class="tel_wrap">
 												<span>ヨイハナ</span>
-												<a href="tel:0120-4187-07"><img src="/images/common/tel_icon.png" alt="">0120-4187-07</a>
+												<a href="tel:0120-4187-07"><img src="/images/common/sp/tel_icon.png" alt="">0120-4187-07</a>
 												<p>(9:00～17:00 / 年末年始休み)</p>
 											</div>
 										</li>
@@ -656,12 +656,12 @@
 			})
 		})
 
-		new Vivus('svg_1', { duration: 200, file: 'images/top/sect_4/svg_1.svg' } );
-		new Vivus('svg_1_sp', { duration: 200, file: 'images/top/sect_4/sp/svg_1.svg' } );
-		new Vivus('svg_2', { duration: 200, file: 'images/top/sect_4/svg_2.svg' } );
-		new Vivus('svg_2_sp', { duration: 200, file: 'images/top/sect_4/sp/svg_2.svg' } );
-		new Vivus('svg_3', { duration: 200, file: 'images/top/sect_4/svg_3.svg' } );
-		new Vivus('svg_3_sp', { duration: 200, file: 'images/top/sect_4/sp/svg_3.svg' } );
+		new Vivus('svg_1', { type: 'oneByOne', animTimingFunction: Vivus.EASE, duration: 200, forceRender: /^((?!chrome|android).)*(msie|edge|trident|safari)/i.test(window.navigator.userAgent), file: 'images/top/sect_4/svg_1.svg' } );
+		new Vivus('svg_1_sp', { type: 'oneByOne', animTimingFunction: Vivus.EASE, duration: 200,animTimingFunction: Vivus.EASE, forceRender: /^((?!chrome|android).)*(msie|edge|trident|safari)/i.test(window.navigator.userAgent), file: 'images/top/sect_4/sp/svg_1.svg' } );
+		new Vivus('svg_2', { type: 'oneByOne', animTimingFunction: Vivus.EASE, duration: 100, forceRender: /^((?!chrome|android).)*(msie|edge|trident|safari)/i.test(window.navigator.userAgent), file: 'images/top/sect_4/svg_2.svg' } );
+		new Vivus('svg_2_sp', { type: 'oneByOne', animTimingFunction: Vivus.EASE, duration: 200, forceRender: /^((?!chrome|android).)*(msie|edge|trident|safari)/i.test(window.navigator.userAgent), file: 'images/top/sect_4/sp/svg_2.svg' } );
+		new Vivus('svg_3', { type: 'oneByOne', animTimingFunction: Vivus.EASE, duration: 100, forceRender: /^((?!chrome|android).)*(msie|edge|trident|safari)/i.test(window.navigator.userAgent), file: 'images/top/sect_4/svg_3.svg' } );
+		new Vivus('svg_3_sp', { type: 'oneByOne', animTimingFunction: Vivus.EASE, duration: 200, forceRender: /^((?!chrome|android).)*(msie|edge|trident|safari)/i.test(window.navigator.userAgent), file: 'images/top/sect_4/sp/svg_3.svg' } );
 
 	</script>
 </body>

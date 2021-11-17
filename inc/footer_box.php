@@ -8,7 +8,7 @@
 			<li>
 				<div class="tel_wrap">
 					<span>ヨイハナ</span>
-					<a href="tel:0120-4187-07"><img src="/images/common/tel_icon_wh.png" alt="">0120-4187-07</a>
+					<a href="tel:0120-4187-07"><img src="/images/common/sp/tel_icon_wh.png" alt="">0120-4187-07</a>
 					<p>(9:00～17:00 / 年末年始休み)</p>
 				</div>
 			</li>

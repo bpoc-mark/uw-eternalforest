@@ -33,6 +33,11 @@ $(function () {
     }
   })
 
+  $('.h_right nav ul li a').click(function(){
+    $('.menu span').toggleClass('show');
+    $('header').toggleClass('show')
+  })
+
   $('#header_menu').click(function(){
     $('.menu span').toggleClass('show');
     $('header').toggleClass('show')
