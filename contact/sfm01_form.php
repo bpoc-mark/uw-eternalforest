@@ -28,175 +28,75 @@
 		</header>
 
 		<main id="Contact" class="sfm1">
-
-
-
+			<section class="jumbo_sect">
+				<div class="wrapper">
+					<div class="container">
+						<h3>お問い合わせフォーム</h3>
+					</div>
+				</div>
+			</section>
 			<section class="form-sec">
+				<div class="container contact_info">
+					<p>お電話でのお問い合わせも承っております。</p>
+					<div class="tel_wrap">
+						<span>ヨイハナ</span>
+						<a href="tel:0120-4187-07"><img src="/images/contact/tel_icon.png" alt="">0120-4187-07</a>
+						<p>(月～金 9:00～16:00)</p>
+					</div>
+					<figure class="flower_1">
+						<img src="/images/contact/flower_1.png" class="pc" alt="">
+						<img src="/images/contact/sp/flower_1.png" class="sp" alt="">
+					</figure>
+					<figure class="flower_2">
+						<img src="/images/contact/flower_2.png" alt="">
+					</figure>
+				</div>
 				<div class="form_wrap container">
-					<p>必要項目を入力し、個人情報保護方針をご確認の上、入力内容の確認ボタンを押してください。</p>
-
-
+					
 					<form method="post" name="sfm-form" id="sfm-form" action="./">
+						<p>
+							下記フォームに必要事項を入力の上、【ご入力内容の確認】ボタンをクリックして下さい。<br>
+							お手数ですが、必須項目は全てご入力下さい。<br>
+							お問合せのご回答は迅速に対応させて頂きますが、内容により多少お時間を頂く事もございますので、ご了承下さい。
+						</p>
+
 						<table>
 							<tr>
-								<th>お名前<span class="need">〈必須〉</span></th>
-								<td><input type="text" name="name_s" value="" title="" placeholder="例）山田 太郎"></td>
+								<th><span class="need">必須</span>お名前</th>
+								<td><input type="text" name="name_s" value="" title="" placeholder=""></td>
 							</tr>
 
 							<tr>
-								<th>メールアドレス<span class="need">〈必須〉</span></th>
-								<td><input type="text" name="email_s" value="" title="" placeholder="例）mail@example.com"></td>
+								<th><span class="need">必須</span>メールアドレス</th>
+								<td><input type="text" name="email_s" value="" title="" placeholder=""></td>
+							</tr>
+
+							<tr>
+								<th><span class="need">必須</span>お電話番号</th>
+								<td><input type="text" name="tel_s" value="" title="" placeholder=""></td>
 							</tr>
 
 							<tr class="address">
-								<th>ご住所<span class="need">〈必須〉</span></th>
+								<th><span class="need">必須</span>ご住所</th>
 								<td>
 									<span class="zip-wrap">
-										<input class="zip" type="text" name="zip_s" size="10" maxlength="8" placeholder="例）123-0004">
+										<input class="zip" type="text" name="zip_s" size="10" maxlength="8" placeholder="">
 									</span>
 									<input class="ad_btn" type="button" value="住所自動入力"><br>
-									<input class="text02" type="text" name="address_s" size="60" placeholder="例）静岡県浜松市南区下江町413">
+									<input class="text02" type="text" name="address_s" size="60" placeholder="">
 								</td>
 							</tr>
 
 
 							<tr>
-								<th>チェックボックス <span class="need">〈必須〉</span></th>
-								<td>
-									<div class="checkbox">
-										<input type="hidden" name="check_s" />
-										<ul class="check-list type">
-											<li>
-												<input class="checkbox_item" type="checkbox" name="check_s[]" value="チェック1" id="type01" />&nbsp;
-												<label for="type01">チェック1</label>
-											</li>
-											<li>
-												<input class="checkbox_item" type="checkbox" name="check_s[]" value="チェック2" id="type02" />&nbsp;
-												<label for="type02">チェック2</label>
-											</li>
-											<li>
-												<input class="checkbox_item" type="checkbox" name="check_s[]" value="チェック3" id="type03" />&nbsp;
-												<label for="type03">チェック3</label>
-											</li>
-										</ul>
-									</div>
-								</td>
-							</tr>
-
-
-							<tr>
-								<th>ラジオボタン <span class="need">〈必須〉</span></th>
-								<td>
-									<div class="checkbox">
-										<input type="hidden" name="radio_s" />
-										<ul class="check-list type">
-											<li>
-												<input class="checkbox_item" type="radio" name="radio_s[]" value="ラジオボタン1" id="radio01" />&nbsp;
-												<label for="radio01">ラジオボタン1</label>
-											</li>
-											<li>
-												<input class="checkbox_item" type="radio" name="radio_s[]" value="ラジオボタン2" id="radio02" />&nbsp;
-												<label for="radio02">ラジオボタン2</label>
-											</li>
-											<li>
-												<input class="checkbox_item" type="radio" name="radio_s[]" value="ラジオボタン3" id="radio03" />&nbsp;
-												<label for="radio03">ラジオボタン3</label>
-											</li>
-										</ul>
-									</div>
-								</td>
-							</tr>
-
-							<tr>
-								<th>セレクトボックス<span class="need">〈必須〉</span></th>
-								<td>
-									<div class="select-box">
-										<select name="select_s" required value="" title="">
-											<option name="select_s[]" value="" disabled="disabled" selected hidden>選択してください</option>
-											<option name=" select_s[]" value="セレクト1">セレクト1</option>
-											<option name="select_s[]" value="セレクト2">セレクト2</option>
-											<option name="select_s[]" value="セレクト3">セレクト3</option>
-										</select>
-									</div>
-								</td>
-							</tr>
-
-							<tr>
-								<th>お問合せ内容<span class="need">〈必須〉</span></th>
-								<td><textarea name="message_s" title=""></textarea></td>
+								<th><span class="need optional">任意</span>お問い合わせ内容</th>
+								<td><textarea name="message" title=""></textarea></td>
 							</tr>
 
 						</table>
 
-						<div class="overscroll">
-							<ul>
-								<li>
-									<strong>個人情報保護方針</strong>
-									<p>
-										株式会社〇〇（以下当社）が運営するWebサイトは、お客様に商品やサービスをご提供するにあたり、<br class="sp">
-										個人情報を取得・保有・利用しております。<br>
-										当社はお客様の個人情報保護の重要性を深く認識し、個人情報を保護、適切に取り扱う為に、<br class="sp">
-										このページにて方針を明らかにしております。
-									</p>
-								</li>
-								<li>
-									<strong>ご提供いただくお客様の個人情報について</strong>
-									<p>
-										当社は、お客様のご要望により当社の商品やサービスをお客様にご提供する為、<br class="sp">
-										および当社の商品やサービスに関する情報をお客様にご提供する為、<br class="sp">
-										お客様のお名前・住所・生年月日・性別・電話番号・電子メールアドレスといった個人情報を、お客様よりご提供いただきます。
-										また当社は、これら以外の個人情報をお伺いする場合がございますが、この場合は一部の必須項目を除き、<br class="sp">
-										お客様ご自身の選択で情報提供いただくものとしております。
-									</p>
-								</li>
-								<li>
-									<strong>個人情報の利用目的について</strong>
-									<p>ご提供いただいた個人情報は、当社が以下の目的で利用するものとします。</p>
-									<ol>
-										<li>
-											１. 当社にて取り扱う商品やサービス、各種イベント、キャンペーンなどの開催について、<br class="sp">
-											郵便・電話・電子メールなどの方法によりご案内すること。
-										</li>
-										<li>２. 商品の発送やプレゼントなどに関するご連絡について、郵便・電話・電子メールなどの方法によりご案内すること。</li>
-									</ol>
-								</li>
-								<li>
-									<strong>個人情報の第三者への開示について</strong>
-									<p>
-										当社は、情報処理・発送等業務委託先を除き、正当な理由のない限り事前にお客様のご承諾を得ることなく、<br class="sp">
-										お客様の個人情報を第三者に開示しません。<br>
-										ただし、人命や人権を保護するために緊急を要する場合、または司法機関、警察等の公共機関による法令に基づく要請に協力する場合、その他法令に従う場合には、お客様のご承諾を得ることなく情報開示することがあります。
-									</p>
-								</li>
-								<li>
-									<strong>法令などの遵守について</strong>
-									<p>当社は、お客様の個人情報の取り扱いに関係する日本の法令、その他の規範を遵守します。</p>
-								</li>
-								<li>
-									<strong>安全管理措置について</strong>
-									<p>当社は、お客様の個人情報について適切な安全措置を講ずることにより、漏洩・改竄・紛失などの危険防止に努めます。</p>
-								</li>
-								<li>
-									<strong>お客様の責任について</strong>
-									<p>
-										当Webサイトは、他のWebサイトへリンクを設定していることがありますが、<br class="sp">
-										リンク先サイトでの個人情報の取り扱いについては、当該リンク先サイトにてご自身でご確認ください。<br>
-										当Webサイトのご利用は、お客様の責任において行われるものとします。
-									</p>
-								</li>
-								<li>
-									<strong>継続的な改善について</strong>
-									<p>
-										当社は、個人情報の取り扱いに関して定期的な監査を行い、常に継続的改善に努めます。<br>
-										また当社は、この内容について適宜見直しを行い、改訂することがあります。<br>
-										改訂については本ページにてお知らせいたします。
-									</p>
-								</li>
-							</ul>
-						</div>
-
-						<div class="agree_area">
-							<input type="checkbox" name="agree" id="checkAgree">
+						<div class="agree_area" style="display: none;">
+							<input type="checkbox" name="agree" id="checkAgree" checked>
 							<label for="checkAgree" class="checkAgree">同意します</label>
 						</div>
 
@@ -254,6 +154,9 @@
 				email: function(value, element) {
 					return this.optional(element) || /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]{1,}\.[A-Za-z0-9]{1,}$/.test(value);
 				},
+				tel: function(value, element) {
+					return this.optional(element) || /^[0-9]+[0-9.-]+$/.test(value);
+				},
 			};
 
 			//メソッドの追加
@@ -268,6 +171,10 @@
 				},
 				email_s: {
 					email: true,
+					required: true,
+				},
+				tel_s: {
+					tel: true,
 					required: true,
 				},
 				'check_s[]': {
@@ -298,9 +205,9 @@
 				email_s: {
 					email: "正しいメールアドレスを入力してください"
 				},
-				check_s: {
-					required: "チェックボックスを選択してください"
-				}
+				tel_s: {
+					tel: "正しい電話番号を入力してください"
+				},
 			};
 
 			$(function() {

@@ -21,15 +21,12 @@ $mailMessage = <<< EOD
 ■メールアドレス
 {$sfm_mail->email}
 
+お電話番号
+{$sfm_mail->tel}
+
 ■ご住所
 〒{$sfm_mail->zip}
 {$sfm_mail->address}
-
-■チェックボックス　
-{$sfm_mail->check}
-
-■セレクトボックス
-{$sfm_mail->select}
 
 ■お問い合わせ内容
 {$sfm_mail->message}

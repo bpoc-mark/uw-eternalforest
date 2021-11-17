@@ -23,6 +23,21 @@ $(function () {
 
   }
 
+  $(document).on('click', '.accordion_item_q', function(){
+    if($(this).hasClass('active')){
+      $(this).removeClass('active');
+      $(this).next().slideUp();
+    }else{
+      $(this).addClass('active');
+      $(this).next().slideDown();
+    }
+  })
+
+  $('#header_menu').click(function(){
+    $('.menu span').toggleClass('show');
+    $('header').toggleClass('show')
+  })
+
 });
 
 
@@ -50,7 +65,7 @@ var items_list = document.querySelectorAll('.c-anim-up');
 var items = Array.prototype.slice.call(items_list, 0);
 var observer = new IntersectionObserver(callback, {
   // 出現タイミングの調整はrootMarginを調整
-  rootMargin: '-10%',
+  rootMargin: '-15%',
   threshold: [0, .1, .2, .3, .4, .5, .6, .7, .8, .9, 1]
 });
 items.forEach(function (item) {

@@ -2,6 +2,78 @@
   Contact
 ==================================*/
 main#Contact {
+  margin-top: 50px;
+  .form-sec{
+    background-image: url(/images/contact/sp/bg_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -30px;
+    padding-top: 70px;
+    padding-bottom: 75px;
+    .contact_info{
+      position: relative;
+      text-align: center;
+      padding-bottom: 100px;
+      p{
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 7px;
+
+        @include is-max(340px){
+          font-size: 12px;
+        }
+      }
+      .tel_wrap{
+        text-align: center;
+        span{
+          font-size: 11.065px;
+          letter-spacing: .5em;
+          color: #255900;
+          line-height: 1;
+          position: relative;
+          right: -33px;
+        }
+        a{
+          display: block;
+          font-size: 29.425px;
+          color: #255900;
+          line-height: 1.2;
+          letter-spacing: .05em;
+          margin-top: -6px;
+          position: relative;
+          img{
+            width: 23.5px;
+            position: relative; 
+            top: -3px;
+            margin-right: 8px;
+          }
+        }
+        p{
+          font-weight: 400;
+          font-size: 12px;
+          color: #255900;
+          letter-spacing: .03em;
+          position: relative;
+          left: 10px;
+          margin-bottom: 0;
+        }
+      }
+
+      .flower_1{
+        width: 157.5px;
+        position: absolute;
+        top: 20%;
+        left: 0;
+      }
+      .flower_2{
+        width: 145px;
+        position: absolute;
+        top: 35%;
+        right: 0;
+      }
+    }
+  }
+
   .container {
     p {
       font-size: 16px;
@@ -21,7 +93,17 @@ main#Contact {
   }
 
   .need {
-    color: #cc0303;
+    display: inline-block;
+    color: #fff;
+    background-color: #df6876;
+    font-size: 10px;
+    padding: 2.5px 5px 3.5px;
+    border-radius: 50px;
+    margin-right: 4px;
+
+    &.optional{
+      background-color: #515151;
+    }
   }
 
   table {
@@ -33,8 +115,25 @@ main#Contact {
 
     tr {
       display: block;
-      margin-bottom: 25px;
-
+      border-bottom: 1px solid #f1ede8;
+      padding: 15px 0;
+      &:nth-child(1){
+        border-top: 1px solid #f1ede8;
+      }
+      &:nth-child(4){
+        td{
+          display: flex;
+          flex-wrap: wrap;
+          .zip-wrap{
+            max-width: calc(100% - 95px) !important;
+            margin-right: 0;
+            padding-right: 4px;
+          }
+          .ad_btn{
+            max-width: 95px !important;
+          }
+        }
+      }
       th {
         font-size: 16px;
         line-height: 1;
@@ -102,12 +201,16 @@ main#Contact {
   }
 
   .form_wrap {
-    > p {
-      margin-top: 0 !important;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.03em;
-      font-weight: 500;
+    form{
+      background-color: #fff;
+      padding: 30px 15px 75px;
+      border-radius: 10px;
+      > p {
+        margin-top: 0 !important;
+        line-height: 21px;
+        margin-bottom: 26px;
+        font-size: 14px;
+      }
     }
   }
 }

@@ -51,6 +51,39 @@ img {
   }
 }
 
+.c-heading-01{
+  @include Kinuta_Mincho(700);
+  font-size: 40px;
+  color: #30701c;
+  letter-spacing: .12em;
+  text-align: center;
+
+  @include sp{
+    font-size: 24px;
+    line-height: 32.5px;
+    letter-spacing: unset;
+  }
+
+  &::after{
+    content: "";
+    display: block;
+    width: 112px;
+    height: 3px;
+    margin: 25px auto 0;
+    background-image: url(/images/common/heading_btm_img.png);
+    background-size: cover;
+
+    @include sp{
+      width: 56px;
+      height: 1.5px;
+      margin: 8px auto 0;
+    }
+  }
+  
+}
+
+
+
 /*==================================
 	リスト系
 ==================================*/
@@ -279,6 +312,142 @@ img {
       &.current_page {
         background-color: #000;
         color: #fff;
+      }
+    }
+  }
+}
+
+
+/*==================================
+	ACCORDION
+==================================*/
+.accordion{
+  &:not(:last-child){
+    margin-bottom: 50px;
+    @include sp{
+      margin-bottom: 20px;
+    }
+  }
+  .accordion_title{
+    background-image: url(/images/top/sect_5/title_bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 0 12px;
+
+    @include sp{
+      background-image: url(/images/top/sect_5/sp/title_bg.png);
+      background-size: 100% 100%;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+  .accordion_item{
+    padding: 0 20px;
+    border-bottom: 1px solid #b6d96d;
+    @include sp{
+      padding: 0;
+    }
+    &:last-child{
+      border-bottom: none;
+    }
+    &_q{
+      position: relative;
+      padding: 30px 0;
+      cursor: pointer;
+      @include sp{
+        padding: 17px 20px 18px 0;
+      }
+      &.active{
+        &::after{
+          transform: scaleY(1);
+        }
+      }
+      &::after{
+        content: "\2BC5";
+        position: absolute;
+        top: 1.8rem;
+        right: 0;
+        color: #82b023;
+        font-size: 16px;
+        transform: scaleY(-1);
+        @include sp{
+          top: 1.4rem;
+        }
+      }
+      p{
+        font-size: 20px;
+        line-height: 24px;
+        @include sp{
+          font-size: 16px;
+          line-height: 20.5px;
+          font-weight: 500;
+        }
+      }
+    }
+    &_a{
+      position: relative;
+      padding-bottom: 30px;
+      display: none;
+      padding-left: 30px;
+      @include sp{
+        padding-left: 25px;
+        padding-bottom: 15px;
+      }
+      &::before{
+        content: "A.";
+        font-size: 20px;
+        font-weight: 700;
+        color: #de6679;
+        position: absolute;
+        left: 0;
+        top: 3px;
+        @include sp{
+          font-size: 18px;
+          top: 1px;
+        }
+      }
+      p{
+        line-height: 24px;
+        @include sp{
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+}
+
+/*==================================
+  JUMBO SECTION
+==================================*/
+.jumbo_sect{
+  background-image: url(/images/contact/jumbo_bg_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 410px;
+  @include sp{
+    height: 200px;
+    background-size: 200%;
+    background-position: 50% 0;
+  }
+  .wrapper{
+    height: 100%;
+    .container{
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      h3{
+        @include Kinuta_Mincho(700);
+        font-size: 42px;
+        letter-spacing: .12em;
+
+        @include sp{
+          font-size: 24px;
+        }
       }
     }
   }

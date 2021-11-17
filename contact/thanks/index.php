@@ -28,6 +28,13 @@
 		</header>
 
 		<main id="Contact" class="sfm3">
+			<section class="jumbo_sect">
+				<div class="wrapper">
+					<div class="container">
+						<h3>お問い合わせフォーム</h3>
+					</div>
+				</div>
+			</section>
 			<section class="form-sec">
 				<div class="send_comp container">
 					<p>

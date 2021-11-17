@@ -47,7 +47,14 @@ $font-color: #33251f;
 }
 
 @mixin Kinuta_Mincho($weight: 700) { 
-  font-family: kinuta-mincho-stdn, sans-serif;
+  font-family: YakuHanMP, kinuta-mincho-stdn, sans-serif;
+  font-weight: $weight;
+  font-style: normal;
+}
+
+
+@mixin Kinuta_Marumin_Yoshino($weight: 400) { 
+  font-family: YakuHanMP, kinuta-maruminyoshino-stdn, serif;
   font-weight: $weight;
   font-style: normal;
 }
