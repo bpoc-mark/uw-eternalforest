@@ -314,7 +314,7 @@
 								</div>
 								<div class="col">
 									<figure>
-										<img src="/images/top/sect_4/row_1_img_1.png" class="img_1 svg_1_img" alt="車椅子" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200">
+										<img src="/images/top/sect_4/row_1_img_1.png" class="img_1 svg_1_img" alt="車椅子"  data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300">
 										<div class="img_2 pc" id="svg_1"></div>
 										<div class="img_2 sp" id="svg_1_sp"></div>
 									</figure>
@@ -333,7 +333,7 @@
 								</div>
 								<div class="col">
 									<figure>	
-										<img src="/images/top/sect_4/row_2_img_1.svg" class="img_1" alt="契約書" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300">
+										<img src="/images/top/sect_4/row_2_img_1.svg" class="img_1" alt="契約書"  data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300">
 										<div class="img_2 pc" id="svg_2"></div>
 										<div class="img_2 sp" id="svg_2_sp"></div>
 									</figure>
@@ -353,7 +353,7 @@
 								</div>
 								<div class="col">
 									<figure>
-										<img src="/images/top/sect_4/row_3_img_1.png" class="img_1" alt="入金" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400">
+										<img src="/images/top/sect_4/row_3_img_1.png" class="img_1" alt="入金"  data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300">
 										<div class="img_2 pc" id="svg_3"></div>
 										<div class="img_2 sp" id="svg_3_sp"></div>
 									</figure>
