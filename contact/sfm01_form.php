@@ -40,8 +40,8 @@
 					<p>お電話でのお問い合わせも承っております。</p>
 					<div class="tel_wrap">
 						<span>ヨイハナ</span>
-						<a href="tel:0120-4187-07"><img src="/images/contact/tel_icon.png" alt="">0120-4187-07</a>
-						<p>(月～金 9:00～16:00)</p>
+						<a href="tel:0120-4187-07"><img src="/images/common/tel_icon.svg" alt="">0120-4187-07</a>
+						<p>(9:00～17:00 / 年末年始休み)</p>
 					</div>
 					<figure class="flower_1">
 						<img src="/images/contact/flower_1.png" class="pc" alt="">

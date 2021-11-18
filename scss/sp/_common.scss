@@ -53,6 +53,7 @@ main {
 /* header
 ==================================*/
 header {
+  transition: .3s ease-in-out;
   position: fixed;
   top: 0;
   left: 0;
@@ -64,6 +65,7 @@ header {
   width: 100%;
   height: 50px;
   &.not_visible{
+    top: -100px;
     .header_inner{
       .h_left{
         opacity: 0;
@@ -72,6 +74,8 @@ header {
     }
   }
   &.head_top{
+    top: 0;
+    transition-delay: 1.5s;
     .header_inner{
       .h_left{
         opacity: 0;
@@ -250,8 +254,8 @@ header {
                 right: 0;
                 display: inline-block;
                 background: #235700;
-                width: 6px;
-                height: 6px;
+                width: 5.725px;
+                height: 5.725px;
                 margin: auto;
                 border-radius: 50px;
                 transition: 0.3s;
@@ -324,7 +328,7 @@ footer {
       }
       ul{
         max-width: 291px;
-        margin: 0 auto 60px;
+        margin: 0 auto 0;
         display: flex;
         flex-wrap: wrap;
         border-radius: 5px;
@@ -387,13 +391,21 @@ footer {
           }
         }
       }
+      .p_content{
+        font-size: 14px;
+        margin-top: 13px;
+        margin-bottom: 45px;
+        @include is-max(330px){
+          font-size: 12px;
+        }
+      }
     }
 
     .info{
       h4{
         color: #fff;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 8px;
       }
 

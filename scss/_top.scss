@@ -57,7 +57,6 @@
           margin: 0 auto;
           opacity: 0;
           transition: .3s ease-in-out;
-          transition-delay: .8s;
           &.show{
             opacity: 1;
           }
@@ -71,9 +70,11 @@
           margin-top: 43px;
           opacity: 0;
           transition: .3s ease-in-out;
-          transition-delay: .7s;
+          transition-delay: .3s;
           &.show{
             opacity: 1;
+            -webkit-animation: shake-vertical 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	          animation: shake-vertical 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
           }
         }
         h3{
@@ -85,9 +86,11 @@
           margin-top: 11px;
           opacity: 0;
           transition: .3s ease-in-out;
-          transition-delay: .6s;
+          transition-delay: .35s;
           &.show{
             opacity: 1;
+            -webkit-animation: shake-vertical 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	          animation: shake-vertical 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
           }
         }
         .img_border{
@@ -97,7 +100,7 @@
           margin: 6px auto 23px;
           opacity: 0;
           transition: .3s ease-in-out;
-          transition-delay: .5s;
+          transition-delay: .4s;
           &.show{
             opacity: 1;
           }
@@ -117,7 +120,7 @@
         .fgr_1{
           opacity: 0;
           transition: .3s ease-in-out;
-          transition-delay: .3s;
+          transition-delay: .6s;
           &.show{
             opacity: 1;
           }
@@ -125,6 +128,7 @@
         .fgr_2{
           opacity: 0;
           transition: .3s ease-in-out;
+          transition-delay: .6s;
           &.show{
             opacity: 1;
           }
@@ -170,7 +174,7 @@
             text-align: center;
             span{
               font-size: 18px;
-             
+              color: #403935;
             }
           }
         }
@@ -181,16 +185,22 @@
           border-radius: 10px;
           padding: 18px 0 18px;
           p{
-            @include Kinuta_Mincho(700);
+            font-weight: 700;
             font-size: 20px;
             color: #403935;
             text-align: center;
             a{
               &:first-child{
                 margin-left: 12px;
+                img{
+                  width: 32px;
+                }
               }
               &:last-child{
-                margin-left: 20px;
+                margin-left: 17px;
+                img{
+                  width: 31px;
+                }
               }
             }
           }
@@ -322,11 +332,13 @@
         h6{
           padding-top: 26px;
           text-align: center;
+          color: #000;
           span{
             background-color: #fff;
             border-radius: 5px;
             display: inline-block;
             padding: 13px 55px;
+            color: #000;
           }
         }
         .map{
@@ -355,9 +367,6 @@
             padding: 30px 30px 40px;
             &:nth-child(3){
               padding: 30px 30px 30px;
-              .bdr_top{
-                margin-top: 55px;
-              }
             }
             &:nth-child(4){
               margin-left: auto;
@@ -454,10 +463,15 @@
                 }
                 &.clr_1{
                   &::before{
+                    background-color: #a45f39;
+                  }
+                }
+                &.clr_4{
+                  &::before{
                     background-color: #c8658f;
                   }
                 }
-                &.clr_2{
+                &.clr_5{
                   &::before{
                     background-color: #035897;
                   }
@@ -547,7 +561,7 @@
                 align-items: center;
                 justify-content: center;
                 h3{
-                  font-weight: 700;
+                  font-weight: 500;
                   font-size: 32px;
                   color: #fff;
                 }
@@ -711,6 +725,12 @@
               .col{
                 &:first-child{
                   width: 50%;
+                  p{
+                    span{
+                      margin-left: 15px;
+                      text-indent: -15px;
+                    }
+                  }
                 } 
                 &:last-child{
                   width: 50%;
@@ -772,6 +792,19 @@
               }
               p{
                 line-height: 24px;
+                
+                &.txt_indent{
+                  text-indent: -15px;
+                  margin-left: 15px;
+                }
+                span{
+                  display: block;
+                  margin-left: 15px;
+                  &.txt_indent{
+                    text-indent: -15px;
+                    margin-left: 15px;
+                  }
+                }
               }
               .bring{
                 display: inline-block;

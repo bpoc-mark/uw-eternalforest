@@ -437,9 +437,10 @@ img {
   background-repeat: no-repeat;
   height: 410px;
   @include sp{
+    margin-top: -35px;
     height: 200px;
     background-size: 200%;
-    background-position: 50% 0;
+    background-position: 45% 0;
   }
   .wrapper{
     height: 100%;

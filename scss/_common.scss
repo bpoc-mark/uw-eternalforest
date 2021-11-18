@@ -77,13 +77,11 @@ header {
   width: 100%;
   height: 80px;
   &.not_visible{
-    opacity: 0;
-    visibility: hidden;
+    top: -100px;
   }
   &.head_top{
-    opacity: 1;
-    visibility: visible;
-    transition-delay: .9s;
+    top: 0;
+    transition-delay: 1.5s;
     .header_inner{
       .h_left{
         opacity: 0;
@@ -123,6 +121,26 @@ header {
             &.show{
               display: flex !important;
               align-items: center;
+            }
+            &:nth-child(-n+5){
+              a{
+                position: relative;
+                &:hover{
+                  &::after{
+                    width: 100%;
+                  }
+                }
+                &::after{
+                  content: "";
+                  width: 0;
+                  height: 1px;
+                  background-color: #33251f;
+                  position: absolute;
+                  bottom: -5px;
+                  left: 0;
+                  transition: .4s ease-in-out;
+                }
+              }
             }
             &:not(:last-child){
               margin-right: 40px;
@@ -193,6 +211,10 @@ header {
               background-size: 100% 100%;
               background-repeat: no-repeat;
               margin-right: 0;
+              transition: .3s ease-in-out;
+              &:hover{
+                background-image: url(/images/common/link_bg_img_hover.png);
+              }
               a{
                 display: flex;
                 align-items: center;
@@ -203,9 +225,6 @@ header {
                 @include is-max(1150px){
                   font-size: 13px;
                   padding: 0 10px;
-                }
-                &:hover{
-                  background-color: #a8ce56;
                 }
               }
             }
@@ -244,7 +263,7 @@ footer {
       }
       ul{
         max-width: 580px;
-        margin: 0 auto 70px;
+        margin: 0 auto 0;
         display: flex;
         align-items: center;
         border-radius: 5px;
@@ -304,6 +323,11 @@ footer {
           }
         }
       }
+      .p_content{
+        font-size: 14px;
+        margin-top: 2px;
+        margin-bottom: 40px;
+      }
     }
 
     .info{
@@ -340,7 +364,7 @@ footer {
 #pageTop {
   opacity: 0;
   position: absolute;
-  right: 20px;
+  right: 30px;
   top: 30px;
   z-index: 888;
   transition: 0.3s;

@@ -34,11 +34,11 @@
 					<figure>
 						<img src="/images/top/sect_1/bg_img.jpg" class="pc" alt="">
 						<img src="/images/top/sect_1/sp/bg_img.jpg" class="sp" alt="">
-						<img src="/images/top/sect_1/cloud_img1.png" class="cloud_1 pc" alt="">
-						<img src="/images/top/sect_1/cloud_img2.png" class="cloud_2 pc" alt="">
+						<img src="/images/top/sect_1/cloud_img1.png" class="cloud_1" alt="雲">
+						<img src="/images/top/sect_1/cloud_img2.png" class="cloud_2" alt="雲">
 					</figure>
 					<div class="container">
-						<img src="/images/top/sect_1/img_logo.svg" class="img_logo" alt="">
+						<img src="/images/top/sect_1/img_logo.svg" class="img_logo" alt="公益財団法人 | はままつ | 悠久の杜 | ゆうきゅうのもり">
 						<p>浜松 三方原の台地に</p>
 						<h3>新しい時代の大型霊園が誕生</h3>
 						<img src="/images/top/sect_1/img_border.png" class="img_border" alt="">
@@ -47,8 +47,7 @@
 							<img src="/images/top/sect_1/sp/img_1.png" class="img_1 sp" alt="2022年  春開園予定">
 						</figure>
 						<figure class="fgr_2">
-							<img src="/images/top/sect_1/img_2.svg" class="img_2 pc" alt="">
-							<img src="/images/top/sect_1/sp/img_2.svg" class="img_2 sp" alt="">
+							<img src="/images/top/sect_1/img_2.svg" class="img_2" alt="見学自由 | 駐車場 完備 | 24時間セキュリティ | 宗教宗派自由 | 生前契約可能">
 						</figure>
 					</div>
 				</div>
@@ -66,14 +65,17 @@
 							<p>園内見学は2022年3月以降に<br class="sp">予定しております。<br><span>工事中につき現地への立入りはご遠慮ください。</span></p>
 						</div>
 						<div class="sns c-anim-up">
-							<p>公式SNSページスタート <a href=""><img src="/images/top/sect_2/fb_icon.png" class="pc" alt=""><img src="/images/top/sect_2/sp/fb_icon.png" class="sp" alt=""></a><a href=""><img src="/images/top/sect_2/ig_icon.png" class="pc" alt=""><img src="/images/top/sect_2/sp/ig_icon.png" class="sp" alt=""></a></p>
+							<p>公式SNSページスタート 
+								<a href=""><img src="/images/top/sect_2/fb_icon.png" class="" alt=""></a>
+								<a href=""><img src="/images/top/sect_2/ig_icon.png" class="" alt=""></a>
+							</p>
 						</div>
 						<h3 class="c-heading-01 c-anim-up">開園に向けての私たちの思い</h3>
 						<div class="desc c-anim-up">
 							<p>
 							法令により墓地の経営は、地方公共団体、宗教法人、公益法人に限られています。<br>
 							浜松市を含む静岡県内での墓地はほとんどが宗教法人が経営しており、公益法人での経営はわずかです。<br>
-							　私たち はままつ悠久の杜は、県の厳しい審査を受け認定された公益財団法人であり、<br>
+							　私たち はままつ悠久の杜は、県の厳しい審査を受け認定された公益財団法人であり、<br class="pc">
 							利益を目的としない経営を進める団体です。 
 							</p>
 						</div>
@@ -95,15 +97,14 @@
 										</h4>
 										<div class="float_wrap">
 											<figure>
-												<img src="/images/top/sect_2/img_1.jpg" alt="">
+												<img src="/images/top/sect_2/img_1.jpg" alt="代表理事 二橋 雅夫">
 											</figure>
 											<p>大手楽器メーカー勤務時代に浜松市議会議員に当選。5期20年（1995年～2015年）務め地域の課題に取り組む。2015年に同法人の代表理事に就任。元浜松市議会副議長。</p>
-											
 										</div>
 									</div>	
 								</div>
 								<div class="btm_img" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300">
-									<img src="/images/top/sect_2/item_1_img.png" alt="">
+									<img src="/images/top/sect_2/item_1_img.png" alt="二橋さん家族">
 								</div>
 							</div>
 							<div class="item c-anim-up">
@@ -124,15 +125,15 @@
 										</h4>
 										<div class="float_wrap">
 											<figure>
-												<img src="/images/top/sect_2/img_2.jpg" alt="">
+												<img src="/images/top/sect_2/img_2.jpg" alt="理事・事務局長 福田 幹男">
 											</figure>
 											<p>浜松市職員として浜松市保健所総務課長、生活文化部長を務め、浜松市の霊園関連の業務に携わる。浜北区長を最後に退職後、2015年に同法人の理事・事務局長に就任。</p>
 										</div>
 									</div>	
 								</div>
 								<div class="btm_img itm_2" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300">
-									<img src="/images/top/sect_2/item_2_img.png" class="pc" alt="">
-									<img src="/images/top/sect_2/sp/item_2_img.png" class="sp" alt="">
+									<img src="/images/top/sect_2/item_2_img.png" class="pc" alt="福田さんマップ">
+									<img src="/images/top/sect_2/sp/item_2_img.png" class="sp" alt="福田さんマップ">
 								</div>
 							</div>
 							<div class="item c-anim-up">
@@ -153,15 +154,15 @@
 										</h4>
 										<div class="float_wrap">
 											<figure>
-												<img src="/images/top/sect_2/img_3.jpg" alt="">
+												<img src="/images/top/sect_2/img_3.jpg" alt="樹木緑化監修 塚本 こなみ">
 											</figure>
 											<p>樹木医・環境緑花コンサルタント。<br>磐田市生まれ。92年に女性初の樹木医となり、翌年自身が代表を務める造園会社を設立。2013年からは「はままつフラワーパーク」理事長を務めている。</p>
 										</div>
 									</div>	
 								</div>
 								<div class="btm_img itm_3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300">
-									<img src="/images/top/sect_2/item_3_img.png" class="pc" alt="">
-									<img src="/images/top/sect_2/sp/item_3_img.png" class="sp" alt="">
+									<img src="/images/top/sect_2/item_3_img.png" class="pc" alt="塚本さん花">
+									<img src="/images/top/sect_2/sp/item_3_img.png" class="sp" alt="塚本さん花">
 								</div>
 							</div>
 						</div>
@@ -171,7 +172,7 @@
 			<section class="sect_3" id="sect_3">
 				<div class="wrapper">
 					<div class="container">
-						<h3 class="c-heading-01 c-anim-up"><img src="/images/top/sect_3/bird_img.png" alt=""> お墓のタイプ</h3>
+						<h3 class="c-heading-01 c-anim-up"><img src="/images/top/sect_3/bird_img.svg" alt=""> お墓のタイプ</h3>
 						<p class="sub_head c-anim-up">
 							墓石を建てていただく「普通墓所」から「芝生墓所」「花壇墓所」「樹木墓所」「納骨堂」まで<br class="pc">
 							ご用意しております。宗教、宗派、信仰の有無は問いません。<br>
@@ -180,17 +181,26 @@
 						</p>
 						<h6 class="c-anim-up"><span class="sp">※</span><span>下記料金には墓石設置料は<br class="sp">含まれておりません</span></h6>
 						<div class="map c-anim-up">
-							<img src="/images/top/sect_3/map.svg" class="img_map" alt="">
-							<img src="/images/top/sect_3/cloud_img.png" class="cloud_img" alt="">
+							<img src="/images/top/sect_3/map.svg" class="img_map" alt="お墓のタイプ">
+							<img src="/images/top/sect_3/cloud_img.png" class="cloud_img" alt="雲">
 							<p class="c-anim-up">※イラストはイメージです。</p>
 						</div>
 						<div class="row">
 							<div class="col c-anim-up">
-								<h3 class="clr_1">樹木葬</h3>
+								<h3 class="clr_1">樹木墓所</h3>
 								<h5 class="clr_1">木々に囲まれたパーソナルなお墓</h5>
-								<p>樹木のもとに墓石が並ぶ個人用のお墓。お墓の跡継ぎはいないが墓石のあるお墓が欲しいという方にもお勧めです。20年間経過すると<span class="asterisk">（※）</span>、合祀施設に改葬されます。<br> <span class="">※使用許可日または納骨日から20年で、使用者の再貸付の手続きがない場合。</span></p>
+								<p>樹木のもとに墓石が並ぶ個人用のお墓。お墓の跡継ぎはいないが墓石のあるお墓が欲しいという方にもお勧めです。</p>
 								<div class="bdr_top">
-									<p>永代使用料　500,000円</p>
+									<p class="dot_bfr clr_1">
+									　樹木墓所A（お2人様用）<br>
+									永代使用料　500,000円<br>
+									管理料　　　3,000円（年間）
+									</p>
+									<p class="dot_bfr clr_1">
+									　樹木墓所B（お1人様用）<br>
+									永代使用料　400,000円<br>
+									※20年で合祀に改葬します。
+									</p>
 								</div>
 							</div>
 							<div class="col c-anim-up">
@@ -206,31 +216,29 @@
 								</div>
 							</div>
 							<div class="col c-anim-up">
-								<h3 class="clr_3">合祀・納骨堂（一人用）</h3>
+								<h3 class="clr_3">納骨堂（一人用）</h3>
 								<h5 class="clr_3">お墓の跡継ぎが必要ない永代供養</h5>
-								<p>ご遺骨を納骨堂に安置するものです。施設前には花壇が設けられ、この前で墓参りができ、線香や供物などもお供えできます。</p>
+								<p>ご遺骨を納骨堂に安置するものです。施設前には花壇が設けられ、この前で墓参りができ、線香や供物などもお供えできます。<br>※20年で合祀に改葬します。</p>
 								<div class="bdr_top">
 									<p>
-									永代使用料　300,000円<br>
-									事前の予約が可能です。<br>
-									<span>※ご親族に既に墓地を確保してあることをお伝えください。</span>
+									永代使用料　300,000円
 									</p>
 								</div>
 							</div>
 							<div class="col c-anim-up">
-								<h3 class="clr_4">花壇葬</h3>
+								<h3 class="clr_4">花壇墓所</h3>
 								<h5 class="clr_4">樹木と季節の花々に飾られたお墓</h5>
-								<p>シンボルツリーと季節の花々に彩られたお墓。2人まで納骨できるため、夫婦や個人だけのお墓が欲しいという方にもお勧めです。園内３カ所に区画が設けられています。</p>
+								<p>シンボルツリーと季節の花々に彩られたお墓。2人まで納骨できるため、夫婦や個人だけのお墓が欲しいという方にもお勧めです。<br>※お1人様でも可能です。</p>
 								<div class="bdr_top">
-									<p class="dot_bfr clr_1">
-									　花壇葬A（2人用）<br>
+									<p class="dot_bfr clr_4">
+									　花壇墓所A（お2人様用）<br>
 									永代使用料　600,000円<br>
-									管理料　　　4,000円&nbsp;（年間）
+									管理料　　　4,000円（年間）
 									</p>
-									<p class="dot_bfr clr_1">
-									　花壇葬B（1人用）<br>
+									<p class="dot_bfr clr_4">
+									　花壇墓所B（お2人様用）<br>
 									永代使用料　550,000円<br>
-									管理料　　　3,000円&nbsp;（年間）
+									管理料　　　3,000円（年間）
 									</p>
 								</div>
 							</div>
@@ -239,17 +247,17 @@
 								<h5 class="clr_5">3種類の広さから選べる<br>スタンダードなお墓</h5>
 								<p>高さ2ｍ以下であれば形状や色など、墓石を自由に選んで建立できる普通墓所。広さは３種類からお選びいただき、１区画の敷地内に複数の墓石が設置可能な区画もございます。</p>
 								<div class="bdr_top">
-									<p class="dot_bfr clr_2">
+									<p class="dot_bfr clr_5">
 									　普通墓所A  1区画1.50㎡<br>
 									永代使用料　400,000円<br>
 									管理料　　　7,000円（年間）
 									</p>
-									<p class="dot_bfr clr_2">
+									<p class="dot_bfr clr_5">
 									　普通墓所B  1区画4.59㎡<br>
 									永代使用料　970,000円<br>
 									管理料　　　12,000円（年間）
 									</p>
-									<p class="dot_bfr clr_2">
+									<p class="dot_bfr clr_5">
 									　普通墓所C  1区画7.56㎡<br>
 									永代使用料　1,500,000円<br>
 									管理料　　　20,000円（年間）
@@ -279,7 +287,7 @@
 										<li>
 											<div class="tel_wrap">
 												<span>ヨイハナ</span>
-												<a href="tel:0120-4187-07"><img src="/images/common/sp/tel_icon.png" alt="">0120-4187-07</a>
+												<a href="tel:0120-4187-07"><img src="/images/common/tel_icon.svg" alt="">0120-4187-07</a>
 												<p>(9:00～17:00 / 年末年始休み)</p>
 											</div>
 										</li>
@@ -299,14 +307,14 @@
 									</h6>
 									<p>どなたのお名前で申請するかを決めてください。</p>
 									<span class="bring">お持物</span>
-									<p>申込者の印鑑(認印可能)<br>
-									住所を示すもの（運転免許証、マイナンバーカード、健康保険証等）<br>
-									<span>※必要により、戸籍（除籍）謄本も用意していただく場合があります。</span><br class="pc">
+									<p class="txt_indent">1.申込者の印鑑(認印可能)</p>
+									<p class="txt_indent">2.住所を示すもの（運転免許証、マイナンバーカード、健康保険証等）<br>
+									<span>※必要により、戸籍（除籍）謄本も用意していただく場合があります。</span>
 									<span>※納骨する焼骨がある場合は、必ず埋火葬許可書もご持参ください。</span></p>
 								</div>
 								<div class="col">
 									<figure>
-										<img src="/images/top/sect_4/row_1_img_1.png" class="img_1 svg_1_img" alt="" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200">
+										<img src="/images/top/sect_4/row_1_img_1.png" class="img_1 svg_1_img" alt="車椅子" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200">
 										<div class="img_2 pc" id="svg_1"></div>
 										<div class="img_2 sp" id="svg_1_sp"></div>
 									</figure>
@@ -324,8 +332,8 @@
 									</p>
 								</div>
 								<div class="col">
-									<figure>
-										<img src="/images/top/sect_4/row_2_img_1.png" class="img_1" alt="" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300">
+									<figure>	
+										<img src="/images/top/sect_4/row_2_img_1.svg" class="img_1" alt="契約書" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300">
 										<div class="img_2 pc" id="svg_2"></div>
 										<div class="img_2 sp" id="svg_2_sp"></div>
 									</figure>
@@ -336,15 +344,16 @@
 									<h6>
 										<span class="num">3</span>ご入金
 									</h6>
+									<p></p>
 									<p>
-									永代使用料及び管理料の振込納付書を作成し、お渡しします。<br>
-									１週間以内に指定の金融機関で振り込んでください。<br>
+									永代使用料及び管理料の振込納付書を作成し、お渡しします。<br class="pc">
+									１週間以内に指定の金融機関で振り込んでください。
 									<span>※申込時に現金は必要ありませんので、持参しないようにしてください</span>
 									</p>
 								</div>
 								<div class="col">
 									<figure>
-										<img src="/images/top/sect_4/row_3_img_1.png" class="img_1" alt="" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400">
+										<img src="/images/top/sect_4/row_3_img_1.png" class="img_1" alt="入金" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400">
 										<div class="img_2 pc" id="svg_3"></div>
 										<div class="img_2 sp" id="svg_3_sp"></div>
 									</figure>
@@ -359,12 +368,12 @@
 									ご入金を確認し、『墓所使用許可書』をお渡しした時点で、墓所の使用権が発生し、<br>
 									納骨・ご利用が可能となります。<br>
 									<br>
-									<span>※石材会社の紹介もしております。スタッフまでお気軽にご相談ください。</span>
-									<span>※既に石材会社が決定されている場合は当霊園において登録会社かを確認してください。</span>
+									<span class="txt_indent">※石材会社の紹介もしております。スタッフまでお気軽にご相談ください。</span>
+									<span class="txt_indent">※既に石材会社が決定されている場合は当霊園において登録会社かを確認してください。</span>
 									</p>
 								</div>
 								<div class="col">
-									<img src="/images/top/sect_4/row_4_img_1.png" class="img_1" alt="" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500">
+									<img src="/images/top/sect_4/row_4_img_1.png" class="img_1" alt="完了家族" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500">
 								</div>
 							</div>
 						</div>
@@ -376,8 +385,7 @@
 					<div class="container">
 						<h3 class="c-heading-01 c-anim-up"><img class="insect_img" src="/images/top/sect_5/insect_img.svg" alt=""> Q<span>&</span>A <img class="ducks_img" src="/images/top/sect_5/ducks_img.png" alt=""></h3>			
 						<figure class="c-anim-up">
-							<img src="/images/top/sect_1/img_2.svg" class="pc" alt="">
-							<img src="/images/top/sect_1/sp/img_2.svg" class="sp" alt="">
+							<img src="/images/top/sect_1/img_2.svg" class="" alt="見学自由 | 駐車場 完備 | 24時間セキュリティ | 宗教宗派自由 | 生前契約可能">
 						</figure>
 						<div class="accordion">
 							<h3 class="accordion_title  c-anim-up">運営について</h3>

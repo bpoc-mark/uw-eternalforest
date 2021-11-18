@@ -6,9 +6,9 @@ $str = explode('/', $url); ?>
 	<div class="h_left">
 		<?php
 			if ($str[1] == "") {
-				echo '<h1 class="logo"><a href="/"><img src="/images/common/header_logo.svg" alt=""></a></h1>';
+				echo '<h1 class="logo"><a href="/"><img src="/images/common/header_logo.svg" alt="公益財団法人 | はままつ | 悠久の杜 | ゆうきゅうのもり"></a></h1>';
 			} else {
-				echo '<p class="logo"><a href="/"><img src="/images/common/header_logo.svg" alt=""></a></p>';
+				echo '<p class="logo"><a href="/"><img src="/images/common/header_logo.svg" alt="公益財団法人 | はままつ | 悠久の杜 | ゆうきゅうのもり"></a></p>';
 			}
 		?>
 	</div>
@@ -18,7 +18,7 @@ $str = explode('/', $url); ?>
 			<ul>
 				<li class="sp">
 					<a href="/">
-						<img src="/images/common/header_logo.svg" alt="">
+						<img src="/images/common/header_logo.svg" alt="公益財団法人 | はままつ | 悠久の杜 | ゆうきゅうのもり">
 					</a>
 				</li>
 				<li><a href="/#sect_2" <?php if ($str[1] == "") {
@@ -38,7 +38,7 @@ $str = explode('/', $url); ?>
 				} ?>>
 					<div class="tel_wrap">
 						<span>ヨイハナ</span>
-						<a href="tel:0120-4187-07"><img src="/images/common/sp/tel_icon.png" alt="">0120-4187-07</a>
+						<a href="tel:0120-4187-07"><img src="/images/common/tel_icon.svg" alt="">0120-4187-07</a>
 						<p>(9:00～17:00 / 年末年始休み)</p>
 					</div>
 				</li>
@@ -46,7 +46,7 @@ $str = explode('/', $url); ?>
 					echo ' class="here"';
 				} ?>><img src="/images/common/mail_icon.png" class="sp" alt=""> お問い合わせはこちら</a></li>
 				<li class="sp">
-					<img src="/images/top/sect_2/item_1_img.png" alt="">
+					<img src="/images/top/sect_2/item_1_img.png" alt="二橋さん家族">
 				</li>
 			</ul>
 		</nav>
@@ -55,7 +55,7 @@ $str = explode('/', $url); ?>
 	<div class="nav_sp sp">
 		<ul>
 			<li>
-				<a href="tel:tel:0120-4187-07"><img src="/images/common/sp/tel_icon.png" alt=""></a>
+				<a href="tel:tel:0120-4187-07"><img src="/images/common/tel_icon.svg" alt=""></a>
 			</li>
 			<li>
 				<a href="/contact/"><img src="/images/common/mail_icon.png" alt=""></a>
