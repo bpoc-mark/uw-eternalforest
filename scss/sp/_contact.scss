@@ -100,7 +100,8 @@ main#Contact {
     padding: 2.5px 5px 3.5px;
     border-radius: 50px;
     margin-right: 4px;
-
+    position: relative;
+    top: -3px;
     &.optional{
       background-color: #515151;
     }

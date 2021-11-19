@@ -109,6 +109,13 @@ header.show .header_inner .h_right {
   transform: translateX(0);
 }
 
+header.show .header_inner .nav_sp ul li .menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1005;
+}
+
 header .header_inner {
   display: flex;
   align-items: center;
@@ -2925,6 +2932,8 @@ main#Contact .need {
   padding: 2.5px 5px 3.5px;
   border-radius: 50px;
   margin-right: 4px;
+  position: relative;
+  top: -3px;
 }
 
 main#Contact .need.optional {

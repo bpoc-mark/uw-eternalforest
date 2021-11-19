@@ -107,6 +107,18 @@ header {
       .h_right{
         transform: translateX(0);
       }
+      .nav_sp{
+        ul{
+          li{
+            .menu{
+              position: fixed;
+              top: 0;
+              right: 0;
+              z-index: 1005;
+            }
+          }
+        }
+      }
     }
   }
   .header_inner{

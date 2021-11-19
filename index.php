@@ -664,12 +664,12 @@
 			})
 		})
 
-		new Vivus('svg_1', { type: 'oneByOne', animTimingFunction: Vivus.EASE, duration: 200, forceRender: /^((?!chrome|android).)*(msie|edge|trident|safari)/i.test(window.navigator.userAgent), file: 'images/top/sect_4/svg_1.svg' } );
-		new Vivus('svg_1_sp', { type: 'oneByOne', animTimingFunction: Vivus.EASE, duration: 200,animTimingFunction: Vivus.EASE, forceRender: /^((?!chrome|android).)*(msie|edge|trident|safari)/i.test(window.navigator.userAgent), file: 'images/top/sect_4/sp/svg_1.svg' } );
+		new Vivus('svg_1', { type: 'oneByOne', animTimingFunction: Vivus.EASE, duration: 100, forceRender: /^((?!chrome|android).)*(msie|edge|trident|safari)/i.test(window.navigator.userAgent), file: 'images/top/sect_4/svg_1.svg' } );
+		new Vivus('svg_1_sp', { type: 'oneByOne', animTimingFunction: Vivus.EASE, duration: 100,animTimingFunction: Vivus.EASE, forceRender: /^((?!chrome|android).)*(msie|edge|trident|safari)/i.test(window.navigator.userAgent), file: 'images/top/sect_4/sp/svg_1.svg' } );
 		new Vivus('svg_2', { type: 'oneByOne', animTimingFunction: Vivus.EASE, duration: 100, forceRender: /^((?!chrome|android).)*(msie|edge|trident|safari)/i.test(window.navigator.userAgent), file: 'images/top/sect_4/svg_2.svg' } );
-		new Vivus('svg_2_sp', { type: 'oneByOne', animTimingFunction: Vivus.EASE, duration: 200, forceRender: /^((?!chrome|android).)*(msie|edge|trident|safari)/i.test(window.navigator.userAgent), file: 'images/top/sect_4/sp/svg_2.svg' } );
+		new Vivus('svg_2_sp', { type: 'oneByOne', animTimingFunction: Vivus.EASE, duration: 100, forceRender: /^((?!chrome|android).)*(msie|edge|trident|safari)/i.test(window.navigator.userAgent), file: 'images/top/sect_4/sp/svg_2.svg' } );
 		new Vivus('svg_3', { type: 'oneByOne', animTimingFunction: Vivus.EASE, duration: 100, forceRender: /^((?!chrome|android).)*(msie|edge|trident|safari)/i.test(window.navigator.userAgent), file: 'images/top/sect_4/svg_3.svg' } );
-		new Vivus('svg_3_sp', { type: 'oneByOne', animTimingFunction: Vivus.EASE, duration: 200, forceRender: /^((?!chrome|android).)*(msie|edge|trident|safari)/i.test(window.navigator.userAgent), file: 'images/top/sect_4/sp/svg_3.svg' } );
+		new Vivus('svg_3_sp', { type: 'oneByOne', animTimingFunction: Vivus.EASE, duration: 100, forceRender: /^((?!chrome|android).)*(msie|edge|trident|safari)/i.test(window.navigator.userAgent), file: 'images/top/sect_4/sp/svg_3.svg' } );
 
 	</script>
 </body>
