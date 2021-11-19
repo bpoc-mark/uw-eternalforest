@@ -31,7 +31,7 @@
 			<section class="jumbo_sect">
 				<div class="wrapper">
 					<div class="container">
-						<h3>お問い合わせフォーム</h3>
+						<h1>お問い合わせフォーム</h1>
 					</div>
 				</div>
 			</section>

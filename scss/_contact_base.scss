@@ -389,9 +389,6 @@ main#Contact {
         align-items: center;
       }
       li {
-        @include is-max(375px){
-          width: 100%;
-        }
         &:first-child{
           @include sp{
             order: 2;
@@ -427,6 +424,13 @@ main#Contact {
           width: 100%;
           height: 58px;
           box-sizing: border-box;
+          @include sp{
+            height: 45px;
+            font-size: 16px;
+          }
+        }
+        @include sp{
+          width: 225px;
         }
 
         &:hover {
@@ -466,6 +470,9 @@ main#Contact {
       height: 58px;
       padding: 15px 15px 14px;
       border-radius: 50px;
+      @include sp{
+        padding: 0;
+      }
       &:hover{
         background-color: #f1efef;
       }
@@ -482,7 +489,9 @@ main#Contact {
       letter-spacing: 0.13em;
       color: #fff;
       width: 262px;
-      background: #3c7720;
+      background-image: url(/images/contact/btn_bg.png);
+      background-size: cover;
+      background-repeat: no-repeat;
       box-sizing: border-box;
       font-feature-settings: "palt";
       position: relative;
@@ -495,7 +504,7 @@ main#Contact {
       padding: 15px 15px 14px;
       border-radius: 50px;
       &:hover {
-        background: #4e9c2a;
+        background-image: url(/images/contact/btn_bg_hover.png);
       }
     }
   }

@@ -36,12 +36,32 @@ $(function () {
   $('.h_right nav ul li a').click(function(){
     $('.menu span').toggleClass('show');
     $('header').toggleClass('show')
+    $('.menu_close').toggleClass('show')
+  })
+
+  $('.menu_close').click(function(){
+    $('.menu span').toggleClass('show');
+    $('header').toggleClass('show')
+    $('.menu_close').toggleClass('show')
   })
 
   $('#header_menu').click(function(){
     $('.menu span').toggleClass('show');
     $('header').toggleClass('show')
+    $('.menu_close').toggleClass('show')
   })
+
+  $(window).on('scroll load',function() {
+    var t = $(this).scrollTop();
+    var w = $(window).width();
+    var footer = $('footer').offset().top;
+    var footer_pos = footer - t;
+    if(footer_pos <= 800){
+      $('#pageTop').addClass('stop')
+    }else{
+      $('#pageTop').removeClass('stop')
+    }
+  });
 
 });
 

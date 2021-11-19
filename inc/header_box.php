@@ -49,6 +49,7 @@ $str = explode('/', $url); ?>
 					<img src="/images/top/sect_2/item_1_img.png" alt="二橋さん家族">
 				</li>
 			</ul>
+			<div class="menu_close sp"></div>
 		</nav>
 	</div>
 

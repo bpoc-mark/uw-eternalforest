@@ -31,14 +31,14 @@
 			<section class="jumbo_sect">
 				<div class="wrapper">
 					<div class="container">
-						<h3>お問い合わせフォーム</h3>
+						<h1>お問い合わせフォーム</h1>
 					</div>
 				</div>
 			</section>
 			<section class="form-sec">
 				<div class="send_comp container">
 					<p>
-						この度は、株式会社●●●●へお問合わせ頂き、<br class="pc">誠にありがとうございました。<br><br>
+						この度は、公益財団法人はままつ悠久の杜へお問合わせ頂き、<br class="pc">誠にありがとうございました。<br><br>
 						内容を確認後、ご入力されたメールアドレス宛にお返事致します。<br><br>なお、ご記入頂いたメールアドレス宛てに自動返信メールをお送りしております。<br>自動返信メールが届いていない場合は、メールアドレスが誤っている可能性がございます。<br>その際は大変お手数ですが、再度お問合わせくださいませ。</p>
 					<div class="contact_back">
 						<a href="/">トップへ戻る</a>

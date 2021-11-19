@@ -34,20 +34,25 @@
 					<figure>
 						<img src="/images/top/sect_1/bg_img.jpg" class="pc" alt="">
 						<img src="/images/top/sect_1/sp/bg_img.jpg" class="sp" alt="">
-						<img src="/images/top/sect_1/cloud_img1.png" class="cloud_1" alt="雲">
-						<img src="/images/top/sect_1/cloud_img2.png" class="cloud_2" alt="雲">
+						<img src="/images/top/sect_1/cloud_img1.png" class="cloud_1 pc" alt="雲">
+						<img src="/images/top/sect_1/sp/cloud_img1.png" class="cloud_1 sp" alt="雲">
+						<img src="/images/top/sect_1/cloud_img2.png" class="cloud_2 pc" alt="雲">
+						<img src="/images/top/sect_1/sp/cloud_img2.png" class="cloud_2 sp" alt="雲">
 					</figure>
 					<div class="container">
 						<img src="/images/top/sect_1/img_logo.svg" class="img_logo" alt="公益財団法人 | はままつ | 悠久の杜 | ゆうきゅうのもり">
-						<p>浜松 三方原の台地に</p>
-						<h3>新しい時代の大型霊園が誕生</h3>
+						<h2>
+							<p>浜松 三方原の台地に</p>
+							新しい時代の大型霊園が誕生
+						</h2>
 						<img src="/images/top/sect_1/img_border.png" class="img_border" alt="">
 						<figure class="fgr_1">
 							<img src="/images/top/sect_1/img_1.png" class="img_1 pc" alt="2022年  春開園予定">
 							<img src="/images/top/sect_1/sp/img_1.png" class="img_1 sp" alt="2022年  春開園予定">
 						</figure>
 						<figure class="fgr_2">
-							<img src="/images/top/sect_1/img_2.svg" class="img_2" alt="見学自由 | 駐車場 完備 | 24時間セキュリティ | 宗教宗派自由 | 生前契約可能">
+							<img src="/images/top/sect_1/img_2.svg" class="img_2 pc" alt="見学自由 | 駐車場 完備 | 24時間セキュリティ | 宗教宗派自由 | 生前契約可能">
+							<img src="/images/top/sect_1/sp/img_2.svg" class="img_2 sp" alt="見学自由 | 駐車場 完備 | 24時間セキュリティ | 宗教宗派自由 | 生前契約可能">
 						</figure>
 					</div>
 				</div>
@@ -66,8 +71,8 @@
 						</div>
 						<div class="sns c-anim-up">
 							<p>公式SNSページスタート 
-								<a href=""><img src="/images/top/sect_2/fb_icon.png" class="" alt=""></a>
-								<a href=""><img src="/images/top/sect_2/ig_icon.png" class="" alt=""></a>
+								<a href=""><img src="/images/common/fb_icon.svg" class="" alt=""></a>
+								<a href=""><img src="/images/common/ig_icon.svg" class="" alt=""></a>
 							</p>
 						</div>
 						<h3 class="c-heading-01 c-anim-up">開園に向けての私たちの思い</h3>
@@ -385,7 +390,8 @@
 					<div class="container">
 						<h3 class="c-heading-01 c-anim-up"><img class="insect_img" src="/images/top/sect_5/insect_img.svg" alt=""> Q<span>&</span>A <img class="ducks_img" src="/images/top/sect_5/ducks_img.png" alt=""></h3>			
 						<figure class="c-anim-up">
-							<img src="/images/top/sect_1/img_2.svg" class="" alt="見学自由 | 駐車場 完備 | 24時間セキュリティ | 宗教宗派自由 | 生前契約可能">
+							<img src="/images/top/sect_1/img_2.svg" class="pc" alt="見学自由 | 駐車場 完備 | 24時間セキュリティ | 宗教宗派自由 | 生前契約可能">
+							<img src="/images/top/sect_1/sp/img_2.svg" class="sp" alt="見学自由 | 駐車場 完備 | 24時間セキュリティ | 宗教宗派自由 | 生前契約可能">
 						</figure>
 						<div class="accordion">
 							<h3 class="accordion_title  c-anim-up">運営について</h3>
@@ -648,19 +654,31 @@
 
 	<script>
 		$(document).ready(function(){
+			let scrollTime = 2500;
+			$(window).on('load resize',function() {
+				var w = $(window).width();
+				if (w < 900) {
+					scrollTime = 100;
+					console.log("100")
+				}else{
+					scrollTime = 2500;
+				}
+			});
+
+
 			$("html, body").animate({
 				scrollTop: $('.sect_2').offset().top - 800
 			})
 			$("html, body").animate({
 				scrollTop: $('.sect_1').offset().top - 100
-			}, 3000, function(){
+			}, scrollTime, function(){
+				$('.sect_1 .img_logo').addClass('show');
 				$('header').addClass('head_top');
 				$('.fgr_2').addClass('show');
 				$('.fgr_1').addClass('show');
-				$('.sect_1 h3').addClass('show');
-				$('.sect_1 p').addClass('show');
+				$('.sect_1 h2').addClass('show');
+				$('.sect_1 h2 p').addClass('show');
 				$('.sect_1 .img_border').addClass('show');
-				$('.sect_1 .img_logo').addClass('show');
 			})
 		})
 
