@@ -32,8 +32,8 @@
 			<section class="sect_1">
 				<div class="wrapper">
 					<figure>
-						<img src="/images/top/sect_1/bg_img.jpg" class="pc" alt="">
-						<img src="/images/top/sect_1/sp/bg_img.jpg" class="sp" alt="">
+						<img src="/images/top/sect_1/bg_img.jpg" class="pc" alt="浜松 三方原の台地に | 新しい時代の大型霊園が誕生">
+						<img src="/images/top/sect_1/sp/bg_img.jpg" class="sp" alt="浜松 三方原の台地に | 新しい時代の大型霊園が誕生">
 						<img src="/images/top/sect_1/cloud_img1.png" class="cloud_1 pc" alt="雲">
 						<img src="/images/top/sect_1/sp/cloud_img1.png" class="cloud_1 sp" alt="雲">
 						<img src="/images/top/sect_1/cloud_img2.png" class="cloud_2 pc" alt="雲">
@@ -641,7 +641,7 @@
 						<h3 class="c-heading-01"><img class="butterfly_img" src="/images/top/sect_6/butterfly_img.svg" alt=""> アクセス <img class="tree_img" src="/images/top/sect_6/tree_img.png" alt=""></h3>			
 						<p>〒431-1304　<br class="sp">静岡県浜松市北区細江町中川7346</p>
 					</div>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.73096361309!2d137.68739481553396!3d34.787547586069074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601b20d426690cd1%3A0x69f873d3424a9175!2s7346%20Hosoech%C5%8D%20Nakagawa%2C%20Kita%20Ward%2C%20Hamamatsu%2C%20Shizuoka%20431-1304%2C%20Japan!5e0!3m2!1sen!2sph!4v1636967202155!5m2!1sen!2sph" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.73096361309!2d137.68739481553396!3d34.787547586069074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601b20d426690cd1%3A0x69f873d3424a9175!2s7346%20Hosoech%C5%8D%20Nakagawa%2C%20Kita%20Ward%2C%20Hamamatsu%2C%20Shizuoka%20431-1304%2C%20Japan!5e0!3m2!1sen!2sph!4v1636967202155!5m2!1sja!2sjp" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 				</div>
 			</section>
 		</main>
@@ -659,12 +659,10 @@
 				var w = $(window).width();
 				if (w < 900) {
 					scrollTime = 100;
-					console.log("100")
 				}else{
 					scrollTime = 2500;
 				}
 			});
-
 
 			$("html, body").animate({
 				scrollTop: $('.sect_2').offset().top - 800

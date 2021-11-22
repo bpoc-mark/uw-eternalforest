@@ -2620,7 +2620,7 @@ main#Contact .submit_area ul.koumoku li:hover {
 }
 
 main#Contact .submit_area ul.koumoku li:hover input[type="submit"] {
-  color: #33251f;
+  color: #fff;
 }
 
 main#Contact .submit_area ul.koumoku li:hover svg path {
