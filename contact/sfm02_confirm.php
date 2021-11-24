@@ -36,71 +36,73 @@
 				</div>
 			</section>
       <section class="form-sec">
-        <div class="container contact_info">
-					<p>お電話でのお問い合わせも承っております。</p>
-					<div class="tel_wrap">
-						<span>ヨイハナ</span>
-						<a href="tel:0120-4187-07"><img src="/images/common/tel_icon.svg" alt="">0120-4187-07</a>
-						<p>(9:00～17:00 / 年末年始休み)</p>
-					</div>
-					<figure class="flower_1">
-						<img src="/images/contact/flower_1.png" class="pc" alt="">
-						<img src="/images/contact/sp/flower_1.png" class="sp" alt="">
-					</figure>
-					<figure class="flower_2">
-						<img src="/images/contact/flower_2.png" alt="">
-					</figure>
-				</div>
-        <div class="form_wrap container">
-          <form method="post" name="sfm-form" id="sfm-form" action="./">
+        <div class="bg_wrapper">
+          <div class="container contact_info">
+            <p>お電話でのお問い合わせも承っております。</p>
+            <div class="tel_wrap">
+              <span>ヨイハナ</span>
+              <a href="tel:0120-4187-07"><img src="/images/common/tel_icon.svg" alt="">0120-4187-07</a>
+              <p>(9:00～17:00 / 年末年始休み)</p>
+            </div>
+            <figure class="flower_1">
+              <img src="/images/contact/flower_1.png" class="pc" alt="">
+              <img src="/images/contact/sp/flower_1.png" class="sp" alt="">
+            </figure>
+            <figure class="flower_2">
+              <img src="/images/contact/flower_2.png" alt="">
+            </figure>
+          </div>
+          <div class="form_wrap container">
+            <form method="post" name="sfm-form" id="sfm-form" action="./">
 
-            <table>
-              <p>
-                送信内容をご確認ください。
-              </p>
-              <tr>
-                <th><span class="need">必須</span>お名前</th>
-                <td>
-                  <p><?php echo $sfm_html->name; ?></p>
-                </td>
-              </tr>
+              <table>
+                <p>
+                  送信内容をご確認ください。
+                </p>
+                <tr>
+                  <th><span class="need">必須</span>お名前</th>
+                  <td>
+                    <p><?php echo $sfm_html->name; ?></p>
+                  </td>
+                </tr>
 
-              <tr>
-                <th><span class="need">必須</span>メールアドレス</th>
-                <td>
-                  <p><?php echo $sfm_html->email; ?></p>
-                </td>
-              </tr>
+                <tr>
+                  <th><span class="need">必須</span>メールアドレス</th>
+                  <td>
+                    <p><?php echo $sfm_html->email; ?></p>
+                  </td>
+                </tr>
 
-              <tr>
-                <th><span class="need">必須</span>お電話番号</th>
-                <td>
-                  <p><?php echo $sfm_html->tel; ?></p>
-                </td>
-              </tr>
+                <tr>
+                  <th><span class="need">必須</span>お電話番号</th>
+                  <td>
+                    <p><?php echo $sfm_html->tel; ?></p>
+                  </td>
+                </tr>
 
-              <tr>
-                <th><span class="need">必須</span>ご住所</th>
-                <td>
-                  <p>〒<?php echo $sfm_html->zip; ?></p>
-                  <p><?php echo $sfm_html->address; ?></p>
-                </td>
-              </tr>
+                <tr>
+                  <th><span class="need">必須</span>ご住所</th>
+                  <td>
+                    <p>〒<?php echo $sfm_html->zip; ?></p>
+                    <p><?php echo $sfm_html->address; ?></p>
+                  </td>
+                </tr>
 
-              <tr>
-                <th><span class="need optional">任意</span>お問い合わせ内容</th>
-                <td>
-                  <p><?php echo $sfm_html->message; ?></p>
-                </td>
-              </tr>
+                <tr>
+                  <th><span class="need optional">任意</span>お問い合わせ内容</th>
+                  <td>
+                    <p><?php echo $sfm_html->message; ?></p>
+                  </td>
+                </tr>
 
-            </table>
+              </table>
 
-            <div class="submit_area">
-              <?php echo $sfm_submit; ?>
-            </div><!-- submit_area -->
+              <div class="submit_area">
+                <?php echo $sfm_submit; ?>
+              </div><!-- submit_area -->
 
-          </form>
+            </form>
+          </div>
         </div>
       </section>
     </main>

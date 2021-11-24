@@ -5,12 +5,18 @@
 main#Contact {
 
   .form-sec{
-    background-image: url(/images/contact/bg_img.png);
-    background-size: cover;
+    background-image: url(/images/contact/bg_img_top.png);
+    background-size: 100% auto;
     background-repeat: no-repeat;
     margin-top: -100px;
-    padding-top: 180px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    .bg_wrapper{
+      background-image: url(/images/contact/bg_img_middle.jpg);
+      background-size: 100% auto;
+      background-repeat: repeat-y;
+      padding-bottom: 200px;
+      padding-top: 80px;
+    }
     .contact_info{
       position: relative;
       text-align: center;
@@ -198,8 +204,9 @@ main.sfm2{
 
 main.sfm3{
   .form-sec{
-    padding-bottom: 100px !important;
-
+    .bg_wrapper{
+      padding-bottom: 100px !important;
+    }
     .send_comp {
       text-align: center;
     }

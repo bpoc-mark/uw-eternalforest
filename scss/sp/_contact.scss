@@ -4,12 +4,18 @@
 main#Contact {
   margin-top: 50px;
   .form-sec{
-    background-image: url(/images/contact/sp/bg_img.png);
-    background-size: cover;
+    background-image: url(/images/contact/sp/bg_img_top.png);
+    background-size: 100% auto;
     background-repeat: no-repeat;
     margin-top: -30px;
-    padding-top: 70px;
-    padding-bottom: 75px;
+    padding-top: 30px;
+    .bg_wrapper{
+      background-image: url(/images/contact/sp/bg_img_middle.jpg);
+      background-size: 100% auto;
+      background-repeat: repeat-y;
+      padding-top: 40px;
+      padding-bottom: 75px;
+    }
     .contact_info{
       position: relative;
       text-align: center;

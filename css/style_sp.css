@@ -1285,16 +1285,19 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_2 {
-  background-image: url(/images/top/sect_2/sp/bg_img.png);
-  background-size: cover;
+  background-image: url(/images/top/sect_2/sp/bg_img_top.png);
+  background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: -75px;
+  padding-top: 50px;
   position: relative;
   z-index: 1;
 }
 
 #Top main .sect_2 .wrapper {
-  padding-top: 50px;
+  background-image: url(/images/top/sect_2/sp/bg_img_middle.jpg);
+  background-size: 100% auto;
+  background-repeat: repeat-y;
   padding-bottom: 100px;
   position: relative;
 }
@@ -1302,14 +1305,14 @@ img[src$=".png"], img[src$=".jpg"] {
 #Top main .sect_2 .wrapper .flower_1 {
   max-width: 111px;
   position: absolute;
-  top: -1%;
+  top: -2.2%;
   left: 0;
 }
 
 #Top main .sect_2 .wrapper .flower_2 {
   max-width: 115px;
   position: absolute;
-  top: -1.3%;
+  top: -2.6%;
   right: 0;
 }
 
@@ -1521,16 +1524,20 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_3 {
-  background-image: url(/images/top/sect_3/sp/bg_img.png);
-  background-size: cover;
+  background-image: url(/images/top/sect_3/sp/bg_img_top.png);
+  background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: -40px;
+  padding-top: 40px;
   position: relative;
   z-index: 2;
 }
 
 #Top main .sect_3 .wrapper {
-  padding-top: 80px;
+  background-image: url(/images/top/sect_3/sp/bg_img_middle.jpg);
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  padding-top: 40px;
   padding-bottom: 100px;
 }
 
@@ -1769,16 +1776,20 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_4 {
-  background-image: url(/images/top/sect_4/sp/bg_img.png);
-  background-size: cover;
+  background-image: url(/images/top/sect_4/sp/bg_img_top.png);
+  background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: -40px;
+  padding-top: 45px;
   position: relative;
   z-index: 3;
 }
 
 #Top main .sect_4 .wrapper {
-  padding-top: 65px;
+  background-image: url(/images/top/sect_4/sp/bg_img_middle.jpg);
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  padding-top: 20px;
   padding-bottom: 100px;
 }
 
@@ -2104,17 +2115,21 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_5 {
-  background-image: url(/images/top/sect_5/sp/bg_img.png);
-  background-size: cover;
+  background-image: url(/images/top/sect_5/sp/bg_img_top.png);
+  background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: -40px;
+  padding-top: 40px;
   position: relative;
   z-index: 4;
 }
 
 #Top main .sect_5 .wrapper {
-  padding-top: 80px;
-  padding-bottom: 170px;
+  background-image: url(/images/top/sect_5/sp/bg_img_middle.jpg);
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  padding-top: 40px;
+  padding-bottom: 90px;
 }
 
 #Top main .sect_5 .wrapper .container .c-heading-01 {
@@ -2154,16 +2169,20 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_6 {
-  background-image: url(/images/top/sect_6/sp/bg_img.png);
-  background-size: cover;
+  background-image: url(/images/top/sect_6/sp/bg_img_top.png);
+  background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: -40px;
+  padding-top: 40px;
   position: relative;
   z-index: 5;
 }
 
 #Top main .sect_6 .wrapper {
-  padding-top: 80px;
+  background-image: url(/images/top/sect_6/sp/bg_img_middle.jpg);
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  padding-top: 40px;
 }
 
 #Top main .sect_6 .wrapper .container .c-heading-01 {
@@ -2827,11 +2846,18 @@ main#Contact {
 }
 
 main#Contact .form-sec {
-  background-image: url(/images/contact/sp/bg_img.png);
-  background-size: cover;
+  background-image: url(/images/contact/sp/bg_img_top.png);
+  background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: -30px;
-  padding-top: 70px;
+  padding-top: 30px;
+}
+
+main#Contact .form-sec .bg_wrapper {
+  background-image: url(/images/contact/sp/bg_img_middle.jpg);
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  padding-top: 40px;
   padding-bottom: 75px;
 }
 
@@ -3044,3 +3070,4 @@ main#Contact .form_wrap form > p {
   margin-bottom: 26px;
   font-size: 14px;
 }
+/*# sourceMappingURL=style_sp.css.map */

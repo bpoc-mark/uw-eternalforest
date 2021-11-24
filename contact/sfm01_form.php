@@ -36,80 +36,82 @@
 				</div>
 			</section>
 			<section class="form-sec">
-				<div class="container contact_info">
-					<p>お電話でのお問い合わせも承っております。</p>
-					<div class="tel_wrap">
-						<span>ヨイハナ</span>
-						<a href="tel:0120-4187-07"><img src="/images/common/tel_icon.svg" alt="">0120-4187-07</a>
-						<p>(9:00～17:00 / 年末年始休み)</p>
-					</div>
-					<figure class="flower_1">
-						<img src="/images/contact/flower_1.png" class="pc" alt="">
-						<img src="/images/contact/sp/flower_1.png" class="sp" alt="">
-					</figure>
-					<figure class="flower_2">
-						<img src="/images/contact/flower_2.png" alt="">
-					</figure>
-				</div>
-				<div class="form_wrap container">
-					
-					<form method="post" name="sfm-form" id="sfm-form" action="./">
-						<p>
-							下記フォームに必要事項を入力の上、【ご入力内容の確認】ボタンをクリックして下さい。<br>
-							お手数ですが、必須項目は全てご入力下さい。<br>
-							お問合せのご回答は迅速に対応させて頂きますが、内容により多少お時間を頂く事もございますので、ご了承下さい。
-						</p>
-
-						<table>
-							<tr>
-								<th><span class="need">必須</span>お名前</th>
-								<td><input type="text" name="name_s" value="" title="" placeholder=""></td>
-							</tr>
-
-							<tr>
-								<th><span class="need">必須</span>メールアドレス</th>
-								<td><input type="text" name="email_s" value="" title="" placeholder=""></td>
-							</tr>
-
-							<tr>
-								<th><span class="need">必須</span>お電話番号</th>
-								<td><input type="text" name="tel_s" value="" title="" placeholder=""></td>
-							</tr>
-
-							<tr class="address">
-								<th><span class="need">必須</span>ご住所</th>
-								<td>
-									<span class="zip-wrap">
-										<input class="zip" type="text" name="zip_s" size="10" maxlength="8" placeholder="">
-									</span>
-									<input class="ad_btn" type="button" value="住所自動入力"><br>
-									<input class="text02" type="text" name="address_s" size="60" placeholder="">
-								</td>
-							</tr>
-
-
-							<tr>
-								<th><span class="need optional">任意</span>お問い合わせ内容</th>
-								<td><textarea name="message" title=""></textarea></td>
-							</tr>
-
-						</table>
-
-						<div class="agree_area" style="display: none;">
-							<input type="checkbox" name="agree" id="checkAgree" checked>
-							<label for="checkAgree" class="checkAgree">同意します</label>
+				<div class="bg_wrapper">
+					<div class="container contact_info">
+						<p>お電話でのお問い合わせも承っております。</p>
+						<div class="tel_wrap">
+							<span>ヨイハナ</span>
+							<a href="tel:0120-4187-07"><img src="/images/common/tel_icon.svg" alt="">0120-4187-07</a>
+							<p>(9:00～17:00 / 年末年始休み)</p>
 						</div>
+						<figure class="flower_1">
+							<img src="/images/contact/flower_1.png" class="pc" alt="">
+							<img src="/images/contact/sp/flower_1.png" class="sp" alt="">
+						</figure>
+						<figure class="flower_2">
+							<img src="/images/contact/flower_2.png" alt="">
+						</figure>
+					</div>
+					<div class="form_wrap container">
+						
+						<form method="post" name="sfm-form" id="sfm-form" action="./">
+							<p>
+								下記フォームに必要事項を入力の上、【ご入力内容の確認】ボタンをクリックして下さい。<br>
+								お手数ですが、必須項目は全てご入力下さい。<br>
+								お問合せのご回答は迅速に対応させて頂きますが、内容により多少お時間を頂く事もございますので、ご了承下さい。
+							</p>
 
-						<div class="submit_area">
-							<span>
-								<input id="checkSubmit" type="submit" value="入力内容を確認" class="pushbtn" />
-							</span>
-						</div><!-- submit_area -->
+							<table>
+								<tr>
+									<th><span class="need">必須</span>お名前</th>
+									<td><input type="text" name="name_s" value="" title="" placeholder=""></td>
+								</tr>
+
+								<tr>
+									<th><span class="need">必須</span>メールアドレス</th>
+									<td><input type="text" name="email_s" value="" title="" placeholder=""></td>
+								</tr>
+
+								<tr>
+									<th><span class="need">必須</span>お電話番号</th>
+									<td><input type="text" name="tel_s" value="" title="" placeholder=""></td>
+								</tr>
+
+								<tr class="address">
+									<th><span class="need">必須</span>ご住所</th>
+									<td>
+										<span class="zip-wrap">
+											<input class="zip" type="text" name="zip_s" size="10" maxlength="8" placeholder="">
+										</span>
+										<input class="ad_btn" type="button" value="住所自動入力"><br>
+										<input class="text02" type="text" name="address_s" size="60" placeholder="">
+									</td>
+								</tr>
 
 
-						<input type="hidden" name="mailToNum" value="0" />
-						<input type="hidden" name="mode" value="CONFIRM" />
-					</form>
+								<tr>
+									<th><span class="need optional">任意</span>お問い合わせ内容</th>
+									<td><textarea name="message" title=""></textarea></td>
+								</tr>
+
+							</table>
+
+							<div class="agree_area" style="display: none;">
+								<input type="checkbox" name="agree" id="checkAgree" checked>
+								<label for="checkAgree" class="checkAgree">同意します</label>
+							</div>
+
+							<div class="submit_area">
+								<span>
+									<input id="checkSubmit" type="submit" value="入力内容を確認" class="pushbtn" />
+								</span>
+							</div><!-- submit_area -->
+
+
+							<input type="hidden" name="mailToNum" value="0" />
+							<input type="hidden" name="mode" value="CONFIRM" />
+						</form>
+					</div>
 				</div>
 			</section>
 		</main>

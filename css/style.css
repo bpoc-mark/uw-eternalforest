@@ -1221,7 +1221,7 @@ img[src$=".png"], img[src$=".jpg"] {
   background-repeat: no-repeat;
   margin-top: -330px;
   position: relative;
-  padding-top: 130px;
+  padding-top: 120px;
   z-index: 1;
 }
 
@@ -1230,20 +1230,21 @@ img[src$=".png"], img[src$=".jpg"] {
   background-size: 100% auto;
   background-repeat: repeat-y;
   position: relative;
+  padding-top: 10px;
   padding-bottom: 200px;
 }
 
 #Top main .sect_2 .wrapper .flower_1 {
   max-width: 295px;
   position: absolute;
-  top: -90px;
+  top: -210px;
   left: 0;
 }
 
 #Top main .sect_2 .wrapper .flower_2 {
   max-width: 327px;
   position: absolute;
-  top: -130px;
+  top: -250px;
   right: 0;
 }
 
@@ -1412,7 +1413,7 @@ img[src$=".png"], img[src$=".jpg"] {
   background-repeat: no-repeat;
   margin-top: -70px;
   position: relative;
-  padding-top: 150px;
+  padding-top: 80px;
   z-index: 2;
 }
 
@@ -1420,6 +1421,7 @@ img[src$=".png"], img[src$=".jpg"] {
   background-image: url(/images/top/sect_3/bg_img_middle.jpg);
   background-size: 100% auto;
   background-repeat: repeat-y;
+  padding-top: 100px;
   padding-bottom: 170px;
 }
 
@@ -1658,16 +1660,20 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_4 {
-  background-image: url(/images/top/sect_4/bg_img.png);
-  background-size: cover;
+  background-image: url(/images/top/sect_4/bg_img_top.png);
+  background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: -70px;
+  padding-top: 110px;
   position: relative;
   z-index: 3;
 }
 
 #Top main .sect_4 .wrapper {
-  padding-top: 190px;
+  background-image: url(/images/top/sect_4/bg_img_middle.jpg);
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  padding-top: 70px;
   padding-bottom: 170px;
 }
 
@@ -1995,16 +2001,20 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_5 {
-  background-image: url(/images/top/sect_5/bg_img.png);
-  background-size: cover;
+  background-image: url(/images/top/sect_5/bg_img_top.png);
+  background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: -70px;
+  padding-top: 110px;
   position: relative;
   z-index: 4;
 }
 
 #Top main .sect_5 .wrapper {
-  padding-top: 190px;
+  background-image: url(/images/top/sect_5/bg_img_middle.jpg);
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  padding-top: 80px;
   padding-bottom: 170px;
 }
 
@@ -2040,21 +2050,25 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_5 .wrapper .container figure {
-  width: 860px;
+  max-width: 860px;
   margin: 50px auto;
 }
 
 #Top main .sect_6 {
-  background-image: url(/images/top/sect_6/bg_img.png);
-  background-size: cover;
+  background-image: url(/images/top/sect_6/bg_img_top.png);
+  background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: -70px;
+  padding-top: 110px;
   position: relative;
   z-index: 5;
 }
 
 #Top main .sect_6 .wrapper {
-  padding-top: 190px;
+  background-image: url(/images/top/sect_6/bg_img_middle.jpg);
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  padding-top: 80px;
 }
 
 #Top main .sect_6 .wrapper .container .c-heading-01 {
@@ -2706,12 +2720,19 @@ main#Contact .contact_back a:hover {
   Contact
 ==================================*/
 main#Contact .form-sec {
-  background-image: url(/images/contact/bg_img.png);
-  background-size: cover;
+  background-image: url(/images/contact/bg_img_top.png);
+  background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: -100px;
-  padding-top: 180px;
+  padding-top: 100px;
+}
+
+main#Contact .form-sec .bg_wrapper {
+  background-image: url(/images/contact/bg_img_middle.jpg);
+  background-size: 100% auto;
+  background-repeat: repeat-y;
   padding-bottom: 200px;
+  padding-top: 80px;
 }
 
 main#Contact .form-sec .contact_info {
@@ -2909,10 +2930,11 @@ main.sfm2 table tr th {
   margin-bottom: 0 !important;
 }
 
-main.sfm3 .form-sec {
+main.sfm3 .form-sec .bg_wrapper {
   padding-bottom: 100px !important;
 }
 
 main.sfm3 .form-sec .send_comp {
   text-align: center;
 }
+/*# sourceMappingURL=style.css.map */

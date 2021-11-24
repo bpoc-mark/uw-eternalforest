@@ -141,25 +141,25 @@
     background-repeat: no-repeat;
     margin-top: -330px;
     position: relative;
-    padding-top: 130px;
+    padding-top: 120px;
     z-index: 1;
     .wrapper{
       background-image: url(/images/top/sect_2/bg_img_middle.jpg);
       background-size: 100% auto;
       background-repeat: repeat-y;
       position: relative;
-      
+      padding-top: 10px;
       padding-bottom: 200px;
       .flower_1{
         max-width: 295px;
         position: absolute;
-        top: -90px;
+        top: -210px;
         left: 0;
       }
       .flower_2{
         max-width: 327px;
         position: absolute;
-        top: -130px;
+        top: -250px;
         right: 0;
       }
       .container{
@@ -311,12 +311,13 @@
     background-repeat: no-repeat;
     margin-top: -70px;
     position: relative;
-    padding-top: 150px;
+    padding-top: 80px;
     z-index: 2;
     .wrapper{
       background-image: url(/images/top/sect_3/bg_img_middle.jpg);
       background-size: 100% auto;
       background-repeat: repeat-y;
+      padding-top: 100px;
       padding-bottom: 170px;
       .container{
         .c-heading-01{
@@ -523,14 +524,18 @@
   }
 
   .sect_4{
-    background-image: url(/images/top/sect_4/bg_img.png);
-    background-size: cover;
+    background-image: url(/images/top/sect_4/bg_img_top.png);
+    background-size: 100% auto;
     background-repeat: no-repeat;
     margin-top: -70px;
+    padding-top: 110px;
     position: relative;
     z-index: 3;
     .wrapper{
-      padding-top: 190px;
+      background-image: url(/images/top/sect_4/bg_img_middle.jpg);
+      background-size: 100% auto;
+      background-repeat: repeat-y;
+      padding-top: 70px;
       padding-bottom: 170px;
       .container{
         .c-heading-01{
@@ -827,14 +832,18 @@
   }
   
   .sect_5{
-    background-image: url(/images/top/sect_5/bg_img.png);
-    background-size: cover;
+    background-image: url(/images/top/sect_5/bg_img_top.png);
+    background-size: 100% auto;
     background-repeat: no-repeat;
     margin-top: -70px;
+    padding-top: 110px;
     position: relative;
     z-index: 4;
     .wrapper{
-      padding-top: 190px;
+      background-image: url(/images/top/sect_5/bg_img_middle.jpg);
+      background-size: 100% auto;
+      background-repeat: repeat-y;
+      padding-top: 80px;
       padding-bottom: 170px;
       .container{
         .c-heading-01{
@@ -861,7 +870,7 @@
           }
         }
         figure{
-          width: 860px;
+          max-width: 860px;
           margin: 50px auto;
         }
       }
@@ -869,14 +878,18 @@
   }
 
   .sect_6{
-    background-image: url(/images/top/sect_6/bg_img.png);
-    background-size: cover;
+    background-image: url(/images/top/sect_6/bg_img_top.png);
+    background-size: 100% auto;
     background-repeat: no-repeat;
     margin-top: -70px;
+    padding-top: 110px;
     position: relative;
     z-index: 5;
     .wrapper{
-      padding-top: 190px;
+      background-image: url(/images/top/sect_6/bg_img_middle.jpg);
+      background-size: 100% auto;
+      background-repeat: repeat-y;
+      padding-top: 80px;
       // padding-bottom: 500px;
       .container{
         .c-heading-01{
