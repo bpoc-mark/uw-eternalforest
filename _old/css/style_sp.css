@@ -99,7 +99,8 @@ header.scroll .header_inner .h_left {
 }
 
 header.show .header_inner .h_right {
-  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
 }
 
 header .header_inner {
@@ -127,7 +128,8 @@ header .header_inner .h_right {
   padding-bottom: 50px;
   padding-top: 38px;
   transition: .3s ease-in-out;
-  transform: translateX(-100%);
+  visibility: hidden;
+  opacity: 0;
 }
 
 header .header_inner .h_right nav ul {
@@ -510,12 +512,16 @@ footer .footer_inner .copy small {
   top: 30px;
 }
 
+#pageTop.stop a {
+  color: #fff;
+}
+
 #pageTop a {
   display: block;
   width: 50px;
   font-size: 11px;
   font-weight: 700;
-  color: #fff;
+  color: #33251f;
 }
 
 #pageTop a img {

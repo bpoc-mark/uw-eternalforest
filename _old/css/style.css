@@ -429,11 +429,15 @@ footer .footer_inner .copy small {
   top: 30px;
 }
 
+#pageTop.stop a {
+  color: #fff;
+}
+
 #pageTop a {
   display: block;
   width: 50px;
   font-weight: 700;
-  color: #fff;
+  color: #33251f;
 }
 
 #pageTop a img {
